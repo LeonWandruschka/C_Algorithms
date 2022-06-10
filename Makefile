@@ -55,6 +55,7 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 #<-- CLEAN -->#
 clean: 
 	rm $(BUILD_DIR)/$(EXECUTABLE_NAME)
-	
+
+#<-- CREATE DOXYGEN DOCUMENTATION -->#
 doxygen:
 	doxygen

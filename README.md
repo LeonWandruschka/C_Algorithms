@@ -31,3 +31,7 @@ Remove the curent executable file by using ```make clean```
 
 - Understanding of c source code.
 - ```gcc``` or ```clang``` must be installed.
+
+## For more information please read the documentation
+
+[Documentation](https://leonwandruschka.github.io/C_Algorithms/)

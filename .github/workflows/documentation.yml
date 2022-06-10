@@ -1,15 +1,15 @@
-name: Documentation
+name: Doxygen GitHub Pages Deploy Action
 
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - main
 
 jobs:
-  build:
-    name: Publish documentation
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-      - name: Doxygen GitHub Pages Deploy Action
-        uses: DenverCoder1/doxygen-github-pages-action@v1.1.0
+      - uses: DenverCoder1/doxygen-github-pages-action@v1.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master

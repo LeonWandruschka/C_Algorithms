@@ -28,7 +28,8 @@ var NAVTREE =
     [ "C Algorithms", "md__r_e_a_d_m_e.html", [
       [ "Table of Contents", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
       [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md3", null ]
+      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
+      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],

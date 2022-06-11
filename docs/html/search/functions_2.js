@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['recfib_0',['RecFib',['../recursive_fib_8c.html#aba9d5cc2470e890d8ce4a06ce6b15da1',1,'recursiveFib.c']]],
-  ['recursivefib_1',['RecursiveFib',['../recursive_fib_8h.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c'],['../recursive_fib_8c.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c']]]
+  ['patsearch_0',['PatSearch',['../pattern_search_8c.html#ac439acf7a57db6be533e2c644f0d0e5d',1,'patternSearch.c']]],
+  ['patternsearch_1',['PatternSearch',['../pattern_search_8h.html#aee64a9b1e8807e2322de388460f5009a',1,'PatternSearch():&#160;patternSearch.c'],['../pattern_search_8c.html#aaf5714c8ad1f66f790b65dbaef9fb332',1,'PatternSearch(void):&#160;patternSearch.c']]]
 ];

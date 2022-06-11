@@ -2,6 +2,13 @@
 
 #include "dynamicFib.h"
 
+/**
+ * @brief DynFib is a function that is calculating the fibonacci number dynamic.
+ * It's a lot faster as the recursive Version especally with bigger numbers.
+ * 
+ * @param n input as an int
+ * @return long Returns the nth fibonacci number
+ */
 long DynFib(int n)
 {
     long array[n - 1];
@@ -14,6 +21,11 @@ long DynFib(int n)
     return array[n - 1]; // Return the value
 }
 
+/**
+ * @brief Prints the return value of the called function RecFib
+ * 
+ * @param number 
+ */
 void DynamicFib(int number)
 {
     printf("%ld\n", DynFib(number));

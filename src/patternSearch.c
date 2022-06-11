@@ -10,7 +10,7 @@
  * (Be aware that its case sensitive!)
  *
  * @param text Input as a char array / as a string
- * @param pattern Input as a char array / as a string or as an char
+ * @param pattern Input as a char array / as a string
  * @return int returns the position of the match or -1 if no match was found
  */
 uint32_t PatSearch(char *text, char *pattern)

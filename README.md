@@ -1,5 +1,8 @@
 # C Algorithms
 
+This is an open source project to collect various C algorithms and data structures and make them available to everyone.
+Everyone is welcome to contribute to the project to make it easier for other developers to search for algorithms.
+
 ## Table of Contents
 
 - recursiveFib.c   ->  Uses a recursive function call to retrun the nth fibonacci number

@@ -1,9 +1,9 @@
 #################################
-##							   ##
-##    C_ALGOTITHMS MAKEFILE    ##
+##                             ##
+##    C_ALGOTITHMS MAKEFILE.   ##
 ## Created by Leon Wandruschka ##
-##      Date: 10.06.2022	   ##
-##							   ##
+##      Date: 10.06.2022       ##
+##                             ##
 #################################
 
 

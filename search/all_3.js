@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['recfib_1',['RecFib',['../recursive_fib_8c.html#aba9d5cc2470e890d8ce4a06ce6b15da1',1,'recursiveFib.c']]],
-  ['recursivefib_2',['RecursiveFib',['../recursive_fib_8h.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c'],['../recursive_fib_8c.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c']]],
-  ['recursivefib_2ec_3',['recursiveFib.c',['../recursive_fib_8c.html',1,'']]],
-  ['recursivefib_2eh_4',['recursiveFib.h',['../recursive_fib_8h.html',1,'']]]
+  ['patsearch_0',['PatSearch',['../pattern_search_8c.html#ac439acf7a57db6be533e2c644f0d0e5d',1,'patternSearch.c']]],
+  ['patternsearch_1',['PatternSearch',['../pattern_search_8h.html#aee64a9b1e8807e2322de388460f5009a',1,'PatternSearch():&#160;patternSearch.c'],['../pattern_search_8c.html#aaf5714c8ad1f66f790b65dbaef9fb332',1,'PatternSearch(void):&#160;patternSearch.c']]],
+  ['patternsearch_2ec_2',['patternSearch.c',['../pattern_search_8c.html',1,'']]],
+  ['patternsearch_2eh_3',['patternSearch.h',['../pattern_search_8h.html',1,'']]]
 ];

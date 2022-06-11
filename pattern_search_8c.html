@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.4"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>C ALGORITHM: src/main.c File Reference</title>
+<title>C ALGORITHM: src/patternSearch.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -73,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",'Search','.html');
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('main_8c.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('pattern_search_8c.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -94,29 +94,71 @@ $(document).ready(function(){initNavTree('main_8c.html',''); initResizable(); })
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">main.c File Reference</div></div>
+  <div class="headertitle"><div class="title">patternSearch.c File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="recursive_fib_8h_source.html">recursiveFib.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dynamic_fib_8h_source.html">dynamicFib.h</a>&quot;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="pattern_search_8h_source.html">patternSearch.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
-<tr class="memdesc:a840291bc02cba5474a4cb46a9b9566fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the main function remove the // befor the function you want to test.  <a href="main_8c.html#a840291bc02cba5474a4cb46a9b9566fe">More...</a><br /></td></tr>
-<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac439acf7a57db6be533e2c644f0d0e5d"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pattern_search_8c.html#ac439acf7a57db6be533e2c644f0d0e5d">PatSearch</a> (char *text, char *pattern)</td></tr>
+<tr class="memdesc:ac439acf7a57db6be533e2c644f0d0e5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">PatSearch is a Function to search for specific patterns in a text. (Be aware that its case sensitive!)  <a href="pattern_search_8c.html#ac439acf7a57db6be533e2c644f0d0e5d">More...</a><br /></td></tr>
+<tr class="separator:ac439acf7a57db6be533e2c644f0d0e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf5714c8ad1f66f790b65dbaef9fb332"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pattern_search_8c.html#aaf5714c8ad1f66f790b65dbaef9fb332">PatternSearch</a> (void)</td></tr>
+<tr class="memdesc:aaf5714c8ad1f66f790b65dbaef9fb332"><td class="mdescLeft">&#160;</td><td class="mdescRight">The PatternSearch function calls <a class="el" href="pattern_search_8c.html#ac439acf7a57db6be533e2c644f0d0e5d" title="PatSearch is a Function to search for specific patterns in a text. (Be aware that its case sensitive!...">PatSearch()</a> with given parameters. It prints the retunr from the called function.  <a href="pattern_search_8c.html#aaf5714c8ad1f66f790b65dbaef9fb332">More...</a><br /></td></tr>
+<tr class="separator:aaf5714c8ad1f66f790b65dbaef9fb332"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a840291bc02cba5474a4cb46a9b9566fe" name="a840291bc02cba5474a4cb46a9b9566fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>main()</h2>
+<a id="ac439acf7a57db6be533e2c644f0d0e5d" name="ac439acf7a57db6be533e2c644f0d0e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac439acf7a57db6be533e2c644f0d0e5d">&#9670;&nbsp;</a></span>PatSearch()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int main </td>
+          <td class="memname">uint32_t PatSearch </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>PatSearch is a Function to search for specific patterns in a text. (Be aware that its case sensitive!) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">text</td><td>Input as a char array / as a string </td></tr>
+    <tr><td class="paramname">pattern</td><td>Input as a char array / as a string or as an char </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>int returns the position of the match or -1 if no match was found </dd></dl>
+
+</div>
+</div>
+<a id="aaf5714c8ad1f66f790b65dbaef9fb332" name="aaf5714c8ad1f66f790b65dbaef9fb332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5714c8ad1f66f790b65dbaef9fb332">&#9670;&nbsp;</a></span>PatternSearch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PatternSearch </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -125,7 +167,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This is the main function remove the // befor the function you want to test. </p>
+<p>The PatternSearch function calls <a class="el" href="pattern_search_8c.html#ac439acf7a57db6be533e2c644f0d0e5d" title="PatSearch is a Function to search for specific patterns in a text. (Be aware that its case sensitive!...">PatSearch()</a> with given parameters. It prints the retunr from the called function. </p>
 
 </div>
 </div>
@@ -134,7 +176,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8c.html">main.c</a></li>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="pattern_search_8c.html">patternSearch.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>

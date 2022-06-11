@@ -1,5 +1,7 @@
 # C Algorithms
 
+[![Documentation deployment](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment)
+
 This is an open source project to collect various C algorithms and data structures and make them available to everyone.
 Everyone is welcome to contribute to the project to make it easier for other developers to search for algorithms.
 

@@ -1,6 +1,6 @@
 # C Algorithms
 
-[![Documentation deployment](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment)
+[![Docs](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment)
 
 This is an open source project to collect various C algorithms and data structures and make them available to everyone.
 Everyone is welcome to contribute to the project to make it easier for other developers to search for algorithms.
@@ -17,7 +17,6 @@ Build the main.c using ```make``` to create an executable file in the build dire
 
 As default the executable file will be build using ```gcc``` and code optimization flags.
 To build using ```clang``` or debugging flags like ```-g``` and diffrent Warnings like ```-Wall, -Wpedantic``` add the following attributes after ```make```
-
 
 | ARGUMENTS | Additional info |
 |---|---|---|

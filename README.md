@@ -18,8 +18,10 @@ Build the main.c using ```make``` to create an executable file in the build dire
 As default the executable file will be build using ```gcc``` and code optimization flags.
 To build using ```clang``` or debugging flags like ```-g``` and diffrent Warnings like ```-Wall, -Wpedantic``` add the following attributes after ```make```
 
-| (Default) DEBUG = 0 | -O3 -std=c17 | Code optimization |
+
+| ARGUMENTS | Additional info |
 |---|---|---|
+| (Default) DEBUG = 0 | -O3 -std=c17 | Code optimization |
 | DEBUG = 1 | -g -O0 -Wall -Wextra -Wpedantic -Wconversion -std=c17 | Debugging and wanring flags |
 | (Default) COMPILER = 0 | gcc |  |
 | COMPILER = 1 | clang |  |

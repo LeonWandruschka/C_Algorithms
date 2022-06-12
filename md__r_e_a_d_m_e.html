@@ -107,20 +107,7 @@ Table of Contents</h1>
 Usage</h1>
 <p >To test/use one of the functions go ahead and remove the <code>//</code> befor the function call in the <a class="el" href="main_8c.html">main.c</a> file. Build the <a class="el" href="main_8c.html">main.c</a> using <code>make</code> to create an executable file in the build directory.</p>
 <p >As default the executable file will be build using <code>gcc</code> and code optimization flags. To build using <code>clang</code> or debugging flags like <code>-g</code> and diffrent Warnings like <code>-Wall, -Wpedantic</code> add the following attributes after <code>make</code></p>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">(Default) DEBUG = 0   </th><th class="markdownTableHeadNone">-O3 -std=c17   </th><th class="markdownTableHeadNone">Code optimization    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">DEBUG = 1   </td><td class="markdownTableBodyNone">-g -O0 -Wall -Wextra -Wpedantic -Wconversion -std=c17   </td><td class="markdownTableBodyNone">Debugging and wanring flags    </td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">(Default) COMPILER = 0   </td><td class="markdownTableBodyNone">gcc   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">COMPILER = 1   </td><td class="markdownTableBodyNone">clang   </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">(Default) REMOVE_OBJ_FILES = 0    </td><td class="markdownTableBodyNone">Removes Objectfiles (.o) from build directory    </td><td class="markdownTableBodyNone"></td></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">REMOVE_OBJ_FILES = 1    </td><td class="markdownTableBodyNone">Creates all Objectfiles (.o) in the build directory    </td><td class="markdownTableBodyNone"></td></tr>
-</table>
+<p >| ARGUMENTS | Additional info | |&mdash;|&mdash;|&mdash;| | (Default) DEBUG = 0 | -O3 -std=c17 | Code optimization | | DEBUG = 1 | -g -O0 -Wall -Wextra -Wpedantic -Wconversion -std=c17 | Debugging and wanring flags | | (Default) COMPILER = 0 | gcc | | | COMPILER = 1 | clang | | | (Default) REMOVE_OBJ_FILES = 0 | Removes Objectfiles (.o) from build directory | | | REMOVE_OBJ_FILES = 1 | Creates all Objectfiles (.o) in the build directory | |</p>
 <p >This could look something like this: <code>make DEBUG=0 COMPILER=1</code></p>
 <p >Use <code>./build/main</code> to execute the file.</p>
 <p >Remove the curent executable file by using <code>make clean</code></p>

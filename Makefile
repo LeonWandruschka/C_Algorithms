@@ -7,7 +7,7 @@
 #################################
 
 
-#<-- Variables -->#
+#<-- VARIABLES -->#
 DEBUG ?= 0
 COMPILER ?= 0
 REMOVE_OBJ_FILES = 0

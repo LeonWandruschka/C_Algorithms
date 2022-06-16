@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['recfib_1',['RecFib',['../recursive_fib_8c.html#aba9d5cc2470e890d8ce4a06ce6b15da1',1,'recursiveFib.c']]],
-  ['recursivefib_2',['RecursiveFib',['../recursive_fib_8h.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c'],['../recursive_fib_8c.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c']]],
-  ['recursivefib_2ec_3',['recursiveFib.c',['../recursive_fib_8c.html',1,'']]],
-  ['recursivefib_2eh_4',['recursiveFib.h',['../recursive_fib_8h.html',1,'']]]
+  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
+  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
+  ['mystack_5ft_2',['mystack_t',['../stack_8h.html#afa7e3148029d1da4b6accd14db0572b5',1,'stack.h']]]
 ];

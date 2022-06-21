@@ -9,6 +9,14 @@ Everyone is welcome to contribute to the project to make it easier for other dev
 
 - recursiveFib.c   ->  Uses a recursive function call to retrun the nth fibonacci number
 - dynamicFib.c  ->   Uses a for loop to calculate the nth fibonacci number. (Much faster, especially at higher numbers)
+- patternSearch.c -> Search for a specific pattern in a string
+- stack.c -> Implemented stack to arrange data (LIFO)
+
+In work:
+- queue.c -> Implementing a queue to arrange data (FIFO)
+- linkedList.c
+- hashTable.c
+- binarySearchTree.c
 
 ## Usage
 

@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['freequeue_0',['FreeQueue',['../queue_8h.html#a6d80a21c675d1cda8cf93eda2fae9ac1',1,'FreeQueue(myqueue_t *queue):&#160;queue.c'],['../queue_8c.html#a6d80a21c675d1cda8cf93eda2fae9ac1',1,'FreeQueue(myqueue_t *queue):&#160;queue.c']]],
-  ['freestack_1',['FreeStack',['../stack_8h.html#aa3bf16f719db2b4b1fe610412ba4072e',1,'FreeStack(mystack_t *stack):&#160;stack.c'],['../stack_8c.html#aa3bf16f719db2b4b1fe610412ba4072e',1,'FreeStack(mystack_t *stack):&#160;stack.c']]],
-  ['front_2',['Front',['../queue_8h.html#ad9992f93afe44f5388fcf9c4674e2cf0',1,'Front(myqueue_t *queue):&#160;queue.c'],['../queue_8c.html#ad9992f93afe44f5388fcf9c4674e2cf0',1,'Front(myqueue_t *queue):&#160;queue.c']]],
-  ['front_5fid_3',['front_id',['../structqueue.html#a2542e24ef30518a49808b18bffe0f889',1,'queue']]],
-  ['functioncall_4',['FunctionCall',['../main_8c.html#a21947720b12b4bb893d0ae03253068bf',1,'main.c']]]
+  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
+  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
+  ['mystack_5ft_2',['mystack_t',['../stack_8h.html#afa7e3148029d1da4b6accd14db0572b5',1,'stack.h']]]
 ];

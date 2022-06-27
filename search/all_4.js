@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['isempty_0',['IsEmpty',['../queue_8h.html#ad37f5954874eca7ce97e5056988fc292',1,'IsEmpty(myqueue_t *queue):&#160;queue.c'],['../queue_8c.html#ad37f5954874eca7ce97e5056988fc292',1,'IsEmpty(myqueue_t *queue):&#160;queue.c']]],
-  ['isfull_1',['IsFull',['../queue_8h.html#a42f20b33e9a6764519475c2acdbf72c9',1,'IsFull(myqueue_t *queue):&#160;queue.c'],['../queue_8c.html#a42f20b33e9a6764519475c2acdbf72c9',1,'IsFull(myqueue_t *queue):&#160;queue.c']]]
+  ['no_5fvalue_0',['NO_VALUE',['../stack_8h.html#a0215deb9808d56a77e0372195607f52e',1,'stack.h']]]
 ];

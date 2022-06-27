@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['back_0',['Back',['../queue_8h.html#a498af3fd8a99f5911944ed05c0a2d4be',1,'Back(myqueue_t *queue):&#160;queue.c'],['../queue_8c.html#a498af3fd8a99f5911944ed05c0a2d4be',1,'Back(myqueue_t *queue):&#160;queue.c']]]
+  ['createstack_0',['CreateStack',['../stack_8h.html#a545dd7a5fa19414e755f3e8806558286',1,'CreateStack(uint32_t capacity):&#160;stack.c'],['../stack_8c.html#a545dd7a5fa19414e755f3e8806558286',1,'CreateStack(uint32_t capacity):&#160;stack.c']]]
 ];

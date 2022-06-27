@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]]
+  ['recfib_0',['RecFib',['../recursive_fib_8c.html#aba9d5cc2470e890d8ce4a06ce6b15da1',1,'recursiveFib.c']]],
+  ['recursivefib_1',['RecursiveFib',['../recursive_fib_8h.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c'],['../recursive_fib_8c.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c']]]
 ];

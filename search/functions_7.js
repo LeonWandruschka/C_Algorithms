@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queue_0',['Queue',['../queue_8h.html#af24e4f9fd2be045f50cee84fdfc9f974',1,'Queue():&#160;queue.c'],['../queue_8c.html#af24e4f9fd2be045f50cee84fdfc9f974',1,'Queue():&#160;queue.c']]]
+  ['topstack_0',['TopStack',['../stack_8h.html#a02df9cf8b93fdf57dd4ddbe481932660',1,'TopStack(mystack_t *stack):&#160;stack.c'],['../stack_8c.html#a02df9cf8b93fdf57dd4ddbe481932660',1,'TopStack(mystack_t *stack):&#160;stack.c']]]
 ];

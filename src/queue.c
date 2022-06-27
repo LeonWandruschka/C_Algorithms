@@ -58,7 +58,7 @@ bool QueueIsFull(myqueue_t *queue)
 
 void PushQueue(myqueue_t *queue, queue_value_t value)
 {
-    if (IsFull(queue))
+    if (QueueIsFull(queue))
     {
         return;
     }
@@ -71,7 +71,7 @@ void PushQueue(myqueue_t *queue, queue_value_t value)
 
 queue_value_t PopQueue(myqueue_t *queue)
 {
-    if (IsEmpty(queue))
+    if (QueueIsEmpty(queue))
         return NO_VALUE;
     queue->size--;
     return queue->data[queue->size];
@@ -80,7 +80,7 @@ queue_value_t PopQueue(myqueue_t *queue)
 
 queue_value_t FrontQueue(myqueue_t *queue)
 {
-    if (IsEmpty(queue))
+    if (QueueIsEmpty(queue))
         return NO_VALUE;
     return queue->data[queue->front_id];
 }
@@ -88,7 +88,7 @@ queue_value_t FrontQueue(myqueue_t *queue)
 
 queue_value_t BackQueue(myqueue_t *queue)
 {
-    if (IsEmpty(queue))
+    if (QueueIsEmpty(queue))
         return NO_VALUE;
     return queue->data[queue->back_id];
 }
@@ -116,8 +116,8 @@ void Queue()
 {
     uint32_t capacity = 4u;
     myqueue_t *queue = CreateQueue(capacity);
-    Push(queue, 2.0f);
-    Push(queue, 3.0f);
+    PushQueue(queue, 2.0f);
+    PushQueue(queue, 3.0f);
     PrintQueue(queue);
     queue = FreeQueue(queue);
 }

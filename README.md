@@ -7,8 +7,11 @@ Everyone is welcome to contribute to the project to make it easier for other dev
 
 ## Table of Contents
 
-- recursiveFib.c   ->  Uses a recursive function call to retrun the nth fibonacci number
-- dynamicFib.c  ->   Uses a for loop to calculate the nth fibonacci number. (Much faster, especially at higher numbers)
+- [Recursive Fibonacci](src/recursiveFib.c) &rarr; Uses a recursive function call to retrun the nth fibonacci number
+- [Dynamic Fibonacci](src/dynamicFib.c) &rarr; Uses a for loop to calculate the nth fibonacci number. (Much faster, especially at higher numbers)
+- [Pattern Search](src/patternSearch.c) &rarr; Search for a specific pattern in a string
+- [Stack](src/stack.c) &rarr; Stack like memory (LIFO)
+- [Queue](src/queue.c) &rarr; Queue like memory (FIFO)
 
 ## Usage
 
@@ -18,15 +21,14 @@ Build the main.c using ```make``` to create an executable file in the build dire
 As default the executable file will be build using ```gcc``` and code optimization flags.
 To build using ```clang``` or debugging flags like ```-g``` and diffrent Warnings like ```-Wall, -Wpedantic``` add the following attributes after ```make```
 
-
 | ARGUMENTS | Additional info |
 |---|---|
 | (Default) DEBUG = 0 | -O3 -std=c17 |
-| DEBUG = 1 | -g -O0 -Wall -Wextra -Wpedantic -Wconversion -std=c17 | 
-| (Default) COMPILER = 0 | gcc | 
-| COMPILER = 1 | clang | 
+| DEBUG = 1 | -g -O0 -Wall -Wextra -Wpedantic -Wconversion -std=c17 |
+| (Default) COMPILER = 0 | gcc |
+| COMPILER = 1 | clang |
 | (Default) REMOVE_OBJ_FILES = 0 | Removes Objectfiles (.o) from build directory |
-| REMOVE_OBJ_FILES = 1 | Creates all Objectfiles (.o) in the build directory | 
+| REMOVE_OBJ_FILES = 1 | Creates all Objectfiles (.o) in the build directory |
 
 This could look something like this: ```make DEBUG=0 COMPILER=1```
 

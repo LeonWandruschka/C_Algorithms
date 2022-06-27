@@ -11,6 +11,8 @@
  */
 long DynFib(int n)
 {
+    if (n <= 2)
+        return 1;
     long array[n - 1];
     array[0] = 1; // Basevalue for fibonacci 1 = 1
     array[1] = 1; // Basevalue for fibonacci 2 = 1

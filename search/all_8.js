@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['size_0',['size',['../structstack.html#ab0630d6f5bfe61662cbbcf5d57225a2f',1,'stack']]],
-  ['stack_1',['stack',['../structstack.html',1,'']]],
-  ['stack_2',['Stack',['../stack_8h.html#a94b95e06b23f703cf934fa695efd964e',1,'Stack():&#160;stack.c'],['../stack_8c.html#a94b95e06b23f703cf934fa695efd964e',1,'Stack():&#160;stack.c']]],
-  ['stack_2ec_3',['stack.c',['../stack_8c.html',1,'']]],
-  ['stack_2eh_4',['stack.h',['../stack_8h.html',1,'']]],
-  ['stack_5fvalue_5ft_5',['stack_value_t',['../stack_8h.html#ae70d09227ba93d7310d3e2b2d0bb65be',1,'stack.h']]]
+  ['queue_0',['queue',['../structqueue.html',1,'']]],
+  ['queue_1',['Queue',['../queue_8h.html#af24e4f9fd2be045f50cee84fdfc9f974',1,'Queue():&#160;queue.c'],['../queue_8c.html#af24e4f9fd2be045f50cee84fdfc9f974',1,'Queue():&#160;queue.c']]],
+  ['queue_2ec_2',['queue.c',['../queue_8c.html',1,'']]],
+  ['queue_2eh_3',['queue.h',['../queue_8h.html',1,'']]],
+  ['queue_5fvalue_5ft_4',['queue_value_t',['../queue_8h.html#a7cbae68d6c00b9cbf4f24420610053e0',1,'queue.h']]]
 ];

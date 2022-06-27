@@ -56,6 +56,10 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 clean: 
 	rm $(BUILD_DIR)/$(EXECUTABLE_NAME)
 
+#<-- CLEAN OBJECT FILES -->#
+cleanobj:
+	$(RM_OF)
+
 #<-- CREATE DOXYGEN DOCUMENTATION -->#
 doxygen:
 	doxygen

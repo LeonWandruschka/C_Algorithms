@@ -60,7 +60,7 @@ mystack_t *FreeStack(mystack_t *stack)
  * @return true 
  * @return false 
  */
-bool IsEmpty(mystack_t *stack)
+bool StackIsEmpty(mystack_t *stack)
 {
     return (stack->size == 0u);
 }
@@ -72,7 +72,7 @@ bool IsEmpty(mystack_t *stack)
  * @return true 
  * @return false 
  */
-bool IsFull(mystack_t *stack)
+bool StackIsFull(mystack_t *stack)
 {
     return (stack->size == stack->capacity);
 }
@@ -82,9 +82,9 @@ bool IsFull(mystack_t *stack)
  * 
  * @param stack 
  */
-void Push(mystack_t *stack, stack_value_t value)
+void PushStack(mystack_t *stack, stack_value_t value)
 {
-    if (IsFull(stack))
+    if (StackIsFull(stack))
     {
         return;
     }
@@ -99,9 +99,9 @@ void Push(mystack_t *stack, stack_value_t value)
  * @param stack 
  * @return stack_value_t 
  */
-stack_value_t Pop(mystack_t *stack)
+stack_value_t PopStack(mystack_t *stack)
 {
-    if (IsEmpty(stack))
+    if (StackIsEmpty(stack))
         return NO_VALUE;
     stack->size--;
     return stack->data[stack->size];
@@ -114,9 +114,9 @@ stack_value_t Pop(mystack_t *stack)
  * @param stack 
  * @return stack_value_t 
  */
-stack_value_t Top(mystack_t *stack)
+stack_value_t TopStack(mystack_t *stack)
 {
-    if (IsEmpty(stack))
+    if (StackIsEmpty(stack))
         return NO_VALUE;
     return stack->data[stack->size - 1];
 }
@@ -149,8 +149,8 @@ void Stack()
 {
     uint32_t capacity = 4u;
     mystack_t *stack = CreateStack(capacity);
-    Push(stack, 2.0f);
-    Push(stack, 3.0f);
+    PushStack(stack, 2.0f);
+    PushStack(stack, 3.0f);
     PrintStack(stack);
     stack = FreeStack(stack);
 }

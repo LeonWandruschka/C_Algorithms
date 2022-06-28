@@ -1,6 +1,6 @@
 # C Algorithms
 
-[![pages-build-deployment](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/pages/pages-build-deployment)
+![GitHub top language](https://img.shields.io/github/languages/top/LeonWandruschka/C_Algorithms) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LeonWandruschka/C_Algorithms) [![Docs](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml)
 
 This is an open source project to collect various C algorithms and data structures and make them available to everyone.
 Everyone is welcome to contribute to the project to make it easier for other developers to search for algorithms.
@@ -15,11 +15,15 @@ Everyone is welcome to contribute to the project to make it easier for other dev
 
 ## Usage
 
-To test/use one of the functions go ahead and remove the ```//``` befor the function call in the main.c file.
-Build the main.c using ```make``` to create an executable file in the build directory.
+To test one of the librarys download or clone the repository.
+In your Terminal or CMD go to the downloaded/cloned folder and type ```make``` to create an executable file in the build directory.
+Now you can start the executable by typing ```./build/main``` or ```./build/mainDebug``` in your Terminal or CMD.
+The programm will ask you to choose a library to test. Each library has an own character ```a```, ```b```, and so on to see an overview press ```Enter```.
+
+### Building the Executable
 
 As default the executable file will be build using ```gcc``` and code optimization flags.
-To build using ```clang``` or debugging flags like ```-g``` and diffrent Warnings like ```-Wall, -Wpedantic``` add the following attributes after ```make```
+To build using ```clang``` or with debugging flags like ```-g``` and diffrent Warnings like ```-Wall, -Wpedantic``` add one or more of the following attributes after ```make```:
 
 | ARGUMENTS | Additional info |
 |---|---|
@@ -32,9 +36,7 @@ To build using ```clang``` or debugging flags like ```-g``` and diffrent Warning
 
 This could look something like this: ```make DEBUG=0 COMPILER=1```
 
-Use ```./build/main``` to execute the file.
-
-Remove the curent executable file by using ```make clean```
+Remove the curent executable file by using ```make clean``` or only the objectfiles by using ```make cleanobj```.
 
 ## Prior requirements
 

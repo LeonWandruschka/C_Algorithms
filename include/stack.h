@@ -7,7 +7,7 @@
 
 
 typedef float stack_value_t;
-#define NO_VALUE (stack_value_t)INFINITY
+#define STACK_NO_VALUE (stack_value_t)INFINITY
 
 typedef struct stack
 {

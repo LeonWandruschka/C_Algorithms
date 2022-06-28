@@ -1,7 +1,7 @@
 var stack_8h =
 [
     [ "stack", "structstack.html", "structstack" ],
-    [ "NO_VALUE", "stack_8h.html#a0215deb9808d56a77e0372195607f52e", null ],
+    [ "STACK_NO_VALUE", "stack_8h.html#a24ad2b88307ea1d92a81735a1622d933", null ],
     [ "mystack_t", "stack_8h.html#afa7e3148029d1da4b6accd14db0572b5", null ],
     [ "stack_value_t", "stack_8h.html#ae70d09227ba93d7310d3e2b2d0bb65be", null ],
     [ "CreateStack", "stack_8h.html#a545dd7a5fa19414e755f3e8806558286", null ],

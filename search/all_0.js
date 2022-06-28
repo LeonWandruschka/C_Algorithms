@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['c_20algorithms_0',['C Algorithms',['../md__r_e_a_d_m_e.html',1,'']]],
-  ['capacity_1',['capacity',['../structstack.html#af4a7b59e4adcd127aabd49a942adf518',1,'stack']]],
-  ['code_5fof_5fconduct_2emd_2',['CODE_OF_CONDUCT.md',['../_c_o_d_e___o_f___c_o_n_d_u_c_t_8md.html',1,'']]],
-  ['contributor_20covenant_20code_20of_20conduct_3',['Contributor Covenant Code of Conduct',['../md__c_o_d_e__o_f__c_o_n_d_u_c_t.html',1,'']]],
-  ['createstack_4',['CreateStack',['../stack_8h.html#a545dd7a5fa19414e755f3e8806558286',1,'CreateStack(uint32_t capacity):&#160;stack.c'],['../stack_8c.html#a545dd7a5fa19414e755f3e8806558286',1,'CreateStack(uint32_t capacity):&#160;stack.c']]]
+  ['back_5fid_0',['back_id',['../structqueue.html#a2eee3b484cb6d375d8f93c70b601ac40',1,'queue']]],
+  ['backqueue_1',['BackQueue',['../queue_8h.html#a2d69c9449293c082a041b0808e0a5de6',1,'BackQueue(myqueue_t *queue):&#160;queue.c'],['../queue_8c.html#a2d69c9449293c082a041b0808e0a5de6',1,'BackQueue(myqueue_t *queue):&#160;queue.c']]]
 ];

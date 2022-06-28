@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['capacity_0',['capacity',['../structstack.html#af4a7b59e4adcd127aabd49a942adf518',1,'stack']]]
+  ['back_5fid_0',['back_id',['../structqueue.html#a2eee3b484cb6d375d8f93c70b601ac40',1,'queue']]]
 ];

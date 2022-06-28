@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['size_0',['size',['../structstack.html#ab0630d6f5bfe61662cbbcf5d57225a2f',1,'stack']]],
-  ['stack_1',['stack',['../structstack.html',1,'']]],
-  ['stack_2',['Stack',['../stack_8h.html#a94b95e06b23f703cf934fa695efd964e',1,'Stack():&#160;stack.c'],['../stack_8c.html#a94b95e06b23f703cf934fa695efd964e',1,'Stack():&#160;stack.c']]],
-  ['stack_2ec_3',['stack.c',['../stack_8c.html',1,'']]],
-  ['stack_2eh_4',['stack.h',['../stack_8h.html',1,'']]],
-  ['stack_5fvalue_5ft_5',['stack_value_t',['../stack_8h.html#ae70d09227ba93d7310d3e2b2d0bb65be',1,'stack.h']]],
-  ['stackisempty_6',['StackIsEmpty',['../stack_8h.html#a7cda7091c9b75786838d7427d75d0384',1,'StackIsEmpty(mystack_t *stack):&#160;stack.c'],['../stack_8c.html#a7cda7091c9b75786838d7427d75d0384',1,'StackIsEmpty(mystack_t *stack):&#160;stack.c']]],
-  ['stackisfull_7',['StackIsFull',['../stack_8h.html#a2520d41f5276974dcfa2e02f065a6f5d',1,'StackIsFull(mystack_t *stack):&#160;stack.c'],['../stack_8c.html#a2520d41f5276974dcfa2e02f065a6f5d',1,'StackIsFull(mystack_t *stack):&#160;stack.c']]]
+  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['recfib_1',['RecFib',['../recursive_fib_8c.html#aba9d5cc2470e890d8ce4a06ce6b15da1',1,'recursiveFib.c']]],
+  ['recursivefib_2',['RecursiveFib',['../recursive_fib_8h.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c'],['../recursive_fib_8c.html#a28440cd6841c3c0a31a74983bd8ef120',1,'RecursiveFib(int number):&#160;recursiveFib.c']]],
+  ['recursivefib_2ec_3',['recursiveFib.c',['../recursive_fib_8c.html',1,'']]],
+  ['recursivefib_2eh_4',['recursiveFib.h',['../recursive_fib_8h.html',1,'']]]
 ];

@@ -41,9 +41,11 @@ var NAVTREE =
     ] ],
     [ "C Algorithms", "md__r_e_a_d_m_e.html", [
       [ "Table of Contents", "md__r_e_a_d_m_e.html#autotoc_md13", null ],
-      [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md14", null ],
-      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md15", null ],
-      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#autotoc_md16", null ]
+      [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md14", [
+        [ "Building the Executable", "md__r_e_a_d_m_e.html#autotoc_md15", null ]
+      ] ],
+      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
+      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#autotoc_md17", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

@@ -7,7 +7,7 @@
 
 
 typedef float queue_value_t;
-#define NO_VALUE (queue_value_t)INFINITY
+#define QUEUE_NO_VALUE (queue_value_t)INFINITY
 
 typedef struct queue
 {

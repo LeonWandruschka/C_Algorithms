@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
 #include "queue.h"
 
-
+/**
+ * @brief Create a Queue object
+ * 
+ * @param capacity 
+ * @return myqueue_t* 
+ */
 myqueue_t *CreateQueue(uint32_t capacity)
 {
     myqueue_t *queue = (myqueue_t *)malloc(sizeof(myqueue_t));
@@ -21,7 +27,7 @@ myqueue_t *CreateQueue(uint32_t capacity)
     }
 
     queue->front_id = 0u;
-    queue->back_id = 0u;
+    queue->back_id = capacity-1;
     queue->capacity = capacity;
     queue->size = 0u;
     queue->data = data;
@@ -29,7 +35,12 @@ myqueue_t *CreateQueue(uint32_t capacity)
     return queue;
 }
 
-
+/**
+ * @brief Delete Queue object
+ * 
+ * @param queue 
+ * @return myqueue_t* 
+ */
 myqueue_t *FreeQueue(myqueue_t *queue)
 {
     if (queue != NULL)
@@ -43,64 +54,101 @@ myqueue_t *FreeQueue(myqueue_t *queue)
     return NULL;
 }
 
-
+/**
+ * @brief Check if Queue is empty
+ * 
+ * @param queue 
+ * @return true 
+ * @return false 
+ */
 bool QueueIsEmpty(myqueue_t *queue)
 {
     return (queue->size == 0u);
 }
 
-
+/**
+ * @brief Check if Queue is full
+ * 
+ * @param queue 
+ * @return true 
+ * @return false 
+ */
 bool QueueIsFull(myqueue_t *queue)
 {
     return (queue->size == queue->capacity);
 }
 
-
+/**
+ * @brief Put new data in the Queue object
+ * 
+ * @param queue 
+ * @param value 
+ */
 void PushQueue(myqueue_t *queue, queue_value_t value)
 {
     if (QueueIsFull(queue))
-    {
         return;
-    }
-    
         
-    queue->data[queue->size] = value;
+    queue->back_id = (queue->back_id + 1u) % queue->capacity;
+    queue->data[queue->back_id] = value;
     queue->size++;
 }
 
-
+/**
+ * @brief Delete data from Queue object
+ * 
+ * @param queue 
+ * @return queue_value_t 
+ */
 queue_value_t PopQueue(myqueue_t *queue)
 {
     if (QueueIsEmpty(queue))
-        return NO_VALUE;
+        return QUEUE_NO_VALUE;
+    
+    queue_value_t value = queue->data[queue->front_id];
+    queue->front_id = (queue->front_id + 1u) % queue->capacity;
     queue->size--;
-    return queue->data[queue->size];
+    return value;
 }
 
-
+/**
+ * @brief First value of the Queue
+ * 
+ * @param queue 
+ * @return queue_value_t 
+ */
 queue_value_t FrontQueue(myqueue_t *queue)
 {
     if (QueueIsEmpty(queue))
-        return NO_VALUE;
+        return QUEUE_NO_VALUE;
     return queue->data[queue->front_id];
 }
 
-
+/**
+ * @brief Last element of the Queue
+ * 
+ * @param queue 
+ * @return queue_value_t 
+ */
 queue_value_t BackQueue(myqueue_t *queue)
 {
     if (QueueIsEmpty(queue))
-        return NO_VALUE;
+        return QUEUE_NO_VALUE;
     return queue->data[queue->back_id];
 }
 
-
+/**
+ * @brief Print the whole queue
+ * 
+ * @param queue 
+ */
 void PrintQueue(myqueue_t *queue)
 {
     if (queue == NULL)
         return;
 
     printf(
-        "The stack contains %u elements with a capacity of %u.\n",
+        "The queue contains %u elements with a capacity of %u.\n",
         queue->size,
         queue->capacity
     );

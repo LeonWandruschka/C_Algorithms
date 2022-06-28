@@ -5,7 +5,7 @@
 #include "dynamicFib.h"
 #include "patternSearch.h"
 #include "stack.h"
-//#include "queue.h"
+#include "queue.h"
 
 
 void FunctionCall();
@@ -58,7 +58,7 @@ void FunctionCall()
             break;
         case 'e':
             //Creating your own Queue to Push and pop your data
-            // Queue();
+            Queue();
             exit(0);
             break;
 

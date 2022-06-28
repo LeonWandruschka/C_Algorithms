@@ -102,7 +102,7 @@ void PushStack(mystack_t *stack, stack_value_t value)
 stack_value_t PopStack(mystack_t *stack)
 {
     if (StackIsEmpty(stack))
-        return NO_VALUE;
+        return STACK_NO_VALUE;
     stack->size--;
     return stack->data[stack->size];
 }
@@ -117,7 +117,7 @@ stack_value_t PopStack(mystack_t *stack)
 stack_value_t TopStack(mystack_t *stack)
 {
     if (StackIsEmpty(stack))
-        return NO_VALUE;
+        return STACK_NO_VALUE;
     return stack->data[stack->size - 1];
 }
 

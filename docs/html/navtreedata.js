@@ -25,17 +25,43 @@
 var NAVTREE =
 [
   [ "C ALGORITHM", "index.html", [
+    [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
+      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
+      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
+      [ "Enforcement Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
+      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
+      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
+      [ "Enforcement Guidelines", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", [
+        [ "1. Correction", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ],
+        [ "2. Warning", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md8", null ],
+        [ "3. Temporary Ban", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md9", null ],
+        [ "4. Permanent Ban", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md10", null ]
+      ] ],
+      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md11", null ]
+    ] ],
     [ "C Algorithms", "md__r_e_a_d_m_e.html", [
-      [ "Table of Contents", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
-      [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
-      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
+      [ "Table of Contents", "md__r_e_a_d_m_e.html#autotoc_md13", null ],
+      [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md14", [
+        [ "Building the Executable", "md__r_e_a_d_m_e.html#autotoc_md15", null ]
+      ] ],
+      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
+      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#autotoc_md17", null ]
+    ] ],
+    [ "Classes", "annotated.html", [
+      [ "Class List", "annotated.html", "annotated_dup" ],
+      [ "Class Index", "classes.html", null ],
+      [ "Class Members", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Functions", "globals_func.html", null ]
+        [ "Functions", "globals_func.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -43,7 +69,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"dir_68267d1309a1af8e8297ef4c3efbcdba.html"
+"annotated.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

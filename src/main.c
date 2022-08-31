@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdarg.h>
 
 #include "recursiveFib.h"
 #include "dynamicFib.h"
 #include "patternSearch.h"
 #include "stack.h"
 #include "queue.h"
-
+#include "linkedList.h"
+#include "thread.h"
 
 void FunctionCall();
 
@@ -16,15 +18,15 @@ void FunctionCall();
  */
 int main(void) // int argc, char const *argv[]
 {
-    FunctionCall();  
-
+    //FunctionCall();  
+    //ThreadCall();
+    LINKEDLIST();
     return 0;
 }
-
+ 
 
 /**
  * @brief Easy access to all functions of the repository
- * 
  */
 void FunctionCall()
 {
@@ -41,24 +43,34 @@ void FunctionCall()
             RecursiveFib(10);
             exit(0);
             break;
+
         case 'b':
             //Really fast also works with higher numbers
             DynamicFib(60);
             exit(0);
             break;
+
         case 'c':
             //Search for a specific pattern in a Text
             PatternSearch();
             exit(0);
             break;
+
         case 'd':
             //Creating your own Stack to Push and pop your data
             Stack();
             exit(0);
             break;
+
         case 'e':
             //Creating your own Queue to Push and pop your data
             Queue();
+            exit(0);
+            break;
+
+        case 'f':
+            //Double Linked List
+            LINKEDLIST();
             exit(0);
             break;
 

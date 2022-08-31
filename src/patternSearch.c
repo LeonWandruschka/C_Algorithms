@@ -40,7 +40,7 @@ void PatternSearch(void)
     char text[] = "THIS IS A TEXT";
     char pattern[] = "IS A";
 
-    uint32_t x = PatSearch(text, pattern);
+    int x = PatSearch(text, pattern);
     if (x == -1)
     {
         printf("No matched pattern found!\n");

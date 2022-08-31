@@ -12,6 +12,7 @@ Everyone is welcome to contribute to the project to make it easier for other dev
 - [Pattern Search](src/patternSearch.c) &rarr; Search for a specific pattern in a string
 - [Stack](src/stack.c) &rarr; Stack like memory (LIFO)
 - [Queue](src/queue.c) &rarr; Queue like memory (FIFO)
+- [Linked List](src/linkedList.c) &rarr; Linked list
 
 ## Usage
 

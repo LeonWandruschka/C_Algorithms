@@ -137,7 +137,7 @@ void PrintStack(mystack_t *stack)
         stack->capacity
     );
     
-    for (int32_t i = 0; i < stack->size; i++)
+    for (uint32_t i = 0; i < stack->size; i++)
     {
         printf("Index: %d, Value %f\n", i, stack->data[i]);
     }

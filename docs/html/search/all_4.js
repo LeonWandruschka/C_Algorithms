@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
-  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
-  ['myqueue_5ft_2',['myqueue_t',['../queue_8h.html#aecd0b837e64ea52fe37ad2171d616406',1,'queue.h']]],
-  ['mystack_5ft_3',['mystack_t',['../stack_8h.html#afa7e3148029d1da4b6accd14db0572b5',1,'stack.h']]]
+  ['data_0',['data',['../structqueue.html#a1e8809d996102f9d944c1fc241bdd840',1,'queue::data()'],['../structstack.html#ad2b27777dd63eda7b72381a8a913710f',1,'stack::data()']]],
+  ['data_5f_1',['data_',['../struct__Node__.html#a7b24176d394890c1567b43bf7d82f2d4',1,'_Node_']]],
+  ['doublylinkedlist_2ec_2',['doublyLinkedList.c',['../doublyLinkedList_8c.html',1,'']]],
+  ['doublylinkedlist_2eh_3',['doublyLinkedList.h',['../doublyLinkedList_8h.html',1,'']]],
+  ['dynamicfib_4',['DynamicFib',['../dynamicFib_8h.html#abf5ea79b499e18d9fc026b764eb6d8c9',1,'DynamicFib(int number):&#160;dynamicFib.c'],['../dynamicFib_8c.html#abf5ea79b499e18d9fc026b764eb6d8c9',1,'DynamicFib(int number):&#160;dynamicFib.c']]],
+  ['dynamicfib_2ec_5',['dynamicFib.c',['../dynamicFib_8c.html',1,'']]],
+  ['dynamicfib_2eh_6',['dynamicFib.h',['../dynamicFib_8h.html',1,'']]],
+  ['dynfib_7',['DynFib',['../dynamicFib_8c.html#a976b779e14ab8fdb6f49eb59d559f798',1,'dynamicFib.c']]]
 ];

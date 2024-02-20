@@ -1,8 +1,8 @@
 var structqueue =
 [
-    [ "back_id", "structqueue.html#a2eee3b484cb6d375d8f93c70b601ac40", null ],
-    [ "capacity", "structqueue.html#a34bf23e0ca47fb39fa521165b85ca592", null ],
-    [ "data", "structqueue.html#a7acbeb424823dbf7c2e360903877ccb8", null ],
-    [ "front_id", "structqueue.html#a2542e24ef30518a49808b18bffe0f889", null ],
-    [ "size", "structqueue.html#a10ade3b6049d30b7c2ace7e0a6e12a4d", null ]
+    [ "back_id", "structqueue.html#ac79e4aca60c65df71ed7e2a6c493881e", null ],
+    [ "capacity", "structqueue.html#a391c992c66c3e5540265a85ec2b9216a", null ],
+    [ "data", "structqueue.html#a1e8809d996102f9d944c1fc241bdd840", null ],
+    [ "front_id", "structqueue.html#a239db6b9a0b8579dbd86f73437b47558", null ],
+    [ "size", "structqueue.html#ab2c6b258f02add8fdf4cfc7c371dd772", null ]
 ];

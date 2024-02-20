@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['data_0',['data',['../structqueue.html#a7acbeb424823dbf7c2e360903877ccb8',1,'queue::data()'],['../structstack.html#a4e7377b27104fd0b08bb2488c632be15',1,'stack::data()']]]
+  ['data_0',['data',['../structqueue.html#a1e8809d996102f9d944c1fc241bdd840',1,'queue::data()'],['../structstack.html#ad2b27777dd63eda7b72381a8a913710f',1,'stack::data()']]],
+  ['data_5f_1',['data_',['../struct__Node__.html#a7b24176d394890c1567b43bf7d82f2d4',1,'_Node_']]]
 ];

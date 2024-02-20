@@ -1,6 +1,6 @@
 var structstack =
 [
-    [ "capacity", "structstack.html#af4a7b59e4adcd127aabd49a942adf518", null ],
-    [ "data", "structstack.html#a4e7377b27104fd0b08bb2488c632be15", null ],
-    [ "size", "structstack.html#ab0630d6f5bfe61662cbbcf5d57225a2f", null ]
+    [ "capacity", "structstack.html#a391c992c66c3e5540265a85ec2b9216a", null ],
+    [ "data", "structstack.html#ad2b27777dd63eda7b72381a8a913710f", null ],
+    [ "size", "structstack.html#ab2c6b258f02add8fdf4cfc7c371dd772", null ]
 ];

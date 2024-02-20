@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['stack_5fvalue_5ft_0',['stack_value_t',['../stack_8h.html#ae70d09227ba93d7310d3e2b2d0bb65be',1,'stack.h']]]
+  ['node_0',['Node',['../doublyLinkedList_8h.html#a5bdf2174facc76de1e1f07ea61471fae',1,'doublyLinkedList.h']]]
 ];

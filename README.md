@@ -17,13 +17,12 @@ Everyone is welcome to contribute to the project to make it easier for other dev
 ## Usage
 
 To test one of the librarys download or clone the repository.
-In your Terminal or CMD go to the downloaded/cloned folder and type ```make``` to create an executable file in the build directory.
-Now you can start the executable by typing ```./build/main``` or ```./build/mainDebug``` in your Terminal or CMD.
+In your Terminal or CMD go to the downloaded/cloned folder and use ```cmake``` to create an executable file in the build directory.
 The programm will ask you to choose a library to test. Each library has an own character ```a```, ```b```, and so on to see an overview press ```Enter``` or use ```h```/```H```.
 
 ### Building the Executable
 
-Build using Makefile and Cmake
+<!--- Build using Makefile and Cmake --->
 
 
 Building the Executable using Cmake:
@@ -42,8 +41,8 @@ To create a clean build use ```cmake --build build --clean-first``` add the targ
 - Conan must be installed for some libraries
 
 ## For more information please read the documentation
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue)](https://leonwandruschka.github.io/C_Algorithms/)
 
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue)](https://leonwandruschka.github.io/C_Algorithms/)
 
 ## Future Updates
 

@@ -32,11 +32,11 @@ void FunctionCall()
 {
   while(1)
   {
-    char func;
-    printf("Which function du you want to test? ");
-    func = getc(stdin);
+    char func[2];
+    printf("Which function du you want to test: ");
+    fgets(func, 3, stdin);
 
-    switch (func)
+    switch (func[0])
     {
     case 'a': 
       {
@@ -92,9 +92,9 @@ void FunctionCall()
       {
         printf("\nRunning double linked list...\n");
 
-        List *list = createList(); ///< Creates a new list
-        Node *node = createNode(); ///< Createa node
-        
+        List *list = createList();  ///< Creates a new list
+        Node *node = createNode();  ///< Create a new node
+
         node->data_ = 10;
         appendNodeToEndOfList(list, node, false);
 
@@ -106,9 +106,9 @@ void FunctionCall()
         node->data_ = 120;
         appendNodeToEndOfList(list, node, false);
 
-        printList(list);
+        printList(list);            ///< Print list
 
-        freeList(list);
+        freeList(list);             ///< Free the list and all nodes
 
         printf("\n");
 
@@ -117,18 +117,30 @@ void FunctionCall()
 
     case 'X':
     case 'x':
-        //Exitiong the programm
+        //Exiting the programm
         exit(0);
 
+    case '-':
+        switch (func[1])
+        {
+        case 'h':
+          printf("\nEnter the following characters to call the specific functions:\n");
+          printf("(a): Recursive Fibonacci\n");
+          printf("(b): Dynamic Fibonacci\n");
+          printf("(c): Patternsearch\n");
+          printf("(d): Stack\n");
+          printf("(e): Queue\n");
+          printf("(f): Double linked list\n");
+          printf("(X): Exit the programm\n\n");
+          break;
+        
+        default:
+          printf("Invalid argument. Use -h for help.\n");
+          break;
+        }
+        break;
     default:
-        printf("Enter the following characters to call the specific functions:\n");
-        printf("(a): Recursive Fibonacci\n");
-        printf("(b): Dynamic Fibonacci\n");
-        printf("(c): Patternsearch\n");
-        printf("(d): Stack\n");
-        printf("(e): Queue\n");
-        printf("(X): Exit the programm\n");
-        fflush(stdin);
+        printf("Invalid argument. Use -h for help.\n");
         break;
     }
   fflush(stdin);

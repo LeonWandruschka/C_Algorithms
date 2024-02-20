@@ -86,29 +86,8 @@ $(function() {
 <li><a href="memory/src/queue.c">Queue</a> &rarr; Queue like memory (FIFO)</li>
 </ul>
 <h1>Usage</h1>
-<p>To test one of the librarys download or clone the repository. In your Terminal or CMD go to the downloaded/cloned folder and type <code>make</code> to create an executable file in the build directory. Now you can start the executable by typing <code>./build/main</code> or <code>./build/mainDebug</code> in your Terminal or CMD. The programm will ask you to choose a library to test. Each library has an own character <code>a</code>, <code>b</code>, and so on to see an overview press <code>Enter</code> or use <code>h</code>/<code>H</code>.</p>
+<p>To test one of the librarys download or clone the repository. In your Terminal or CMD go to the downloaded/cloned folder and use <code>cmake</code> to create an executable file in the build directory. The programm will ask you to choose a library to test. Each library has an own character <code>a</code>, <code>b</code>, and so on to see an overview press <code>Enter</code> or use <code>h</code>/<code>H</code>.</p>
 <h2>Building the Executable</h2>
-<p>Build using Makefile and Cmake</p>
-<p>Building the Executable using Cmake:</p>
-<p>At first run <code>cmake -S . -B build</code> in the source directory now run <code>cmake --build build --target runExecutable</code> to build and run teh executable. If you only want to build the project you can use just <code>cmake --build build</code>this will build the executable in the <code>build/src/</code> folder.</p>
-<p>To create a clean build use <code>cmake --build build --clean-first</code> add the target if you want to run the executable file.</p>
-<h1>Dependencies</h1>
-<ul>
-<li>Understanding of c source code.</li>
-<li><code>gcc</code> or <code>clang</code> must be installed.</li>
-<li>Cmake must be installed</li>
-<li>Conan must be installed for some libraries</li>
-</ul>
-<h1>For more information please read the documentation</h1>
-<p><a href="https://leonwandruschka.github.io/C_Algorithms/"><img src="https://img.shields.io/badge/view-Documentation-blue" alt="view - Documentation" class="inline"/></a></p>
-<h1>Future Updates</h1>
-<ul>
-<li>Use Cmake as build system.</li>
-<li>Add additional algorithms.</li>
-<li>Add needed conan packages for window display.</li>
-<li>Put Algorithms in specific folders.</li>
-<li>Add Catch2 for testing </li>
-</ul>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->

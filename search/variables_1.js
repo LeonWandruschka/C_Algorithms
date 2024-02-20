@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['capacity_0',['capacity',['../structqueue.html#a34bf23e0ca47fb39fa521165b85ca592',1,'queue::capacity()'],['../structstack.html#af4a7b59e4adcd127aabd49a942adf518',1,'stack::capacity()']]]
+  ['capacity_0',['capacity',['../structqueue.html#a391c992c66c3e5540265a85ec2b9216a',1,'queue::capacity'],['../structstack.html#a391c992c66c3e5540265a85ec2b9216a',1,'stack::capacity']]]
 ];

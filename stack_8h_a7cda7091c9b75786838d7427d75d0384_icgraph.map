@@ -1,0 +1,7 @@
+<map id="StackIsEmpty" name="StackIsEmpty">
+<area shape="rect" id="Node000001" title="Check if the Stack object is empty." alt="" coords="132,31,234,56"/>
+<area shape="rect" id="Node000002" href="$stack_8c.html#ae75a3df5238118c0133c0ff59299e5aa" title="Pop the object on top of the stack." alt="" coords="5,5,84,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,34,84,28,85,23,117,29"/>
+<area shape="rect" id="Node000003" href="$stack_8c.html#a02df9cf8b93fdf57dd4ddbe481932660" title="Return the top object of the stack." alt="" coords="6,55,83,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,58,84,63,83,58,116,52"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DynamicFib" name="DynamicFib">
+<area shape="rect" id="Node000001" title="Prints the return value of the called function RecFib." alt="" coords="5,5,95,31"/>
+<area shape="rect" id="Node000002" href="$dynamicFib_8c.html#a976b779e14ab8fdb6f49eb59d559f798" title="DynFib is a function that is calculating the fibonacci number dynamic. It&#39;s a lot faster as the recur..." alt="" coords="143,5,204,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,16,127,16,127,21,95,21"/>
+</map>

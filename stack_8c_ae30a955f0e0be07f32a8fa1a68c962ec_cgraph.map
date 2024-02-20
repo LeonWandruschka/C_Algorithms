@@ -1,0 +1,5 @@
+<map id="PushStack" name="PushStack">
+<area shape="rect" id="Node000001" title="Push a new object to the stack." alt="" coords="5,5,91,31"/>
+<area shape="rect" id="Node000002" href="$stack_8c.html#a2520d41f5276974dcfa2e02f065a6f5d" title="Check if the Stack object is full." alt="" coords="139,5,226,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,16,123,16,123,21,91,21"/>
+</map>

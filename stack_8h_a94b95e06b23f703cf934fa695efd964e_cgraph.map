@@ -1,0 +1,13 @@
+<map id="Stack" name="Stack">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,61,106"/>
+<area shape="rect" id="Node000002" href="$stack_8c.html#a545dd7a5fa19414e755f3e8806558286" title="Create a Stack object." alt="" coords="109,5,202,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,78,107,40,113,37,116,41,110,44,54,82"/>
+<area shape="rect" id="Node000003" href="$stack_8c.html#aa3bf16f719db2b4b1fe610412ba4072e" title="Free the memory of a given Stack object." alt="" coords="115,55,196,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,85,99,76,100,82,61,90"/>
+<area shape="rect" id="Node000004" href="$stack_8c.html#a0e1836f3913d5e4c2435c73061cfbb98" title="Print the whole stack." alt="" coords="114,104,197,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="61,96,100,103,99,108,60,101"/>
+<area shape="rect" id="Node000005" href="$stack_8c.html#ae30a955f0e0be07f32a8fa1a68c962ec" title="Push a new object to the stack." alt="" coords="113,153,198,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="54,104,110,140,116,143,113,148,107,144,51,108"/>
+<area shape="rect" id="Node000006" href="$stack_8c.html#a2520d41f5276974dcfa2e02f065a6f5d" title="Check if the Stack object is full." alt="" coords="250,153,337,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="198,164,235,164,235,169,198,169"/>
+</map>

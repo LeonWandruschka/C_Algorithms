@@ -1,0 +1,9 @@
+<map id="PushQueue" name="PushQueue">
+<area shape="rect" id="Node000001" title="Put new data in the Queue object." alt="" coords="351,5,441,31"/>
+<area shape="rect" id="Node000002" href="$queue_8c.html#af24e4f9fd2be045f50cee84fdfc9f974" title=" " alt="" coords="244,5,303,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="335,21,304,21,304,16,335,16"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a21947720b12b4bb893d0ae03253068bf" title="Easy access to all functions of the repository." alt="" coords="103,5,196,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,21,196,21,196,16,228,16"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="This is the main function remove the // befor the function you want to test." alt="" coords="5,5,55,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

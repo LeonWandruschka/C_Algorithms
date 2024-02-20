@@ -1,0 +1,5 @@
+<map id="TopStack" name="TopStack">
+<area shape="rect" id="Node000001" title="Return the top object of the stack." alt="" coords="5,5,83,31"/>
+<area shape="rect" id="Node000002" href="$stack_8c.html#a7cda7091c9b75786838d7427d75d0384" title="Check if the Stack object is empty." alt="" coords="131,5,233,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,16,115,16,115,21,83,21"/>
+</map>

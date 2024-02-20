@@ -1,0 +1,9 @@
+<map id="QueueIsEmpty" name="QueueIsEmpty">
+<area shape="rect" id="Node000001" title="Check if Queue is empty." alt="" coords="143,55,249,80"/>
+<area shape="rect" id="Node000002" href="$queue_8c.html#a2d69c9449293c082a041b0808e0a5de6" title="Last element of the Queue." alt="" coords="5,5,95,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,52,90,34,91,29,142,47"/>
+<area shape="rect" id="Node000003" href="$queue_8c.html#ad7356021c74ee2c84223330fb31d764b" title="First value of the Queue." alt="" coords="5,55,95,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="127,70,95,70,95,65,127,65"/>
+<area shape="rect" id="Node000004" href="$queue_8c.html#aaaa1a2f4502b600893661af776a1410d" title="Delete data from Queue object." alt="" coords="9,104,91,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,88,91,106,90,101,140,83"/>
+</map>

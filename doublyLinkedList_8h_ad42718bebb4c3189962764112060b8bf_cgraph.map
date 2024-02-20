@@ -1,0 +1,7 @@
+<map id="freeList" name="freeList">
+<area shape="rect" id="Node000001" title="Frees the memory of a list and all nodes in it." alt="" coords="5,31,71,56"/>
+<area shape="rect" id="Node000002" href="$doublyLinkedList_8c.html#a9182d7b7dfe765d57cf721aa4baed7f0" title="Frees the memory of a node." alt="" coords="155,5,230,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,36,139,24,140,29,72,41"/>
+<area shape="rect" id="Node000003" href="$doublyLinkedList_8c.html#a59ba3b973d19b65b116bdf11c654117e" title="Removes a node from the list." alt="" coords="119,55,266,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="72,46,103,51,103,56,71,51"/>
+</map>

@@ -1,0 +1,57 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="This is the main function remove the // befor the function you want to test." alt="" coords="5,252,55,278"/>
+<area shape="rect" id="Node000002" href="$main_8c.html#a21947720b12b4bb893d0ae03253068bf" title="Easy access to all functions of the repository." alt="" coords="103,252,196,278"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,262,87,262,87,268,55,268"/>
+<area shape="rect" id="Node000003" href="$doublyLinkedList_8c.html#a37aadbfcf83312a0088fa545cdce40a5" title="Append a node to the end of a list." alt="" coords="244,29,411,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,251,159,214,176,164,203,110,221,86,242,64,246,61,250,65,246,68,225,89,208,113,181,166,164,215,156,252"/>
+<area shape="rect" id="Node000005" href="$doublyLinkedList_8c.html#adf0d926330b762066c03d55073b8eef1" title="Allocates memory for a new list and initalizes it." alt="" coords="288,79,367,104"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="153,250,183,185,209,146,242,113,272,98,274,103,246,118,213,150,188,188,158,253"/>
+<area shape="rect" id="Node000006" href="$doublyLinkedList_8c.html#a507450da851d29d5541f4b5ec884d166" title="Allocates memory for a new node and initalizes it." alt="" coords="284,128,372,154"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="157,250,191,207,215,183,243,163,268,151,270,156,245,167,219,187,195,210,162,253"/>
+<area shape="rect" id="Node000007" href="$dynamicFib_8c.html#abf5ea79b499e18d9fc026b764eb6d8c9" title="Prints the return value of the called function RecFib." alt="" coords="283,177,372,203"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="171,249,243,212,267,203,269,208,245,217,173,254"/>
+<area shape="rect" id="Node000009" href="$doublyLinkedList_8c.html#ad42718bebb4c3189962764112060b8bf" title="Frees the memory of a list and all nodes in it." alt="" coords="295,227,360,252"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="196,256,279,244,280,249,197,261"/>
+<area shape="rect" id="Node000012" href="$patternSearch_8c.html#a669f02cbd352889dbbe8eb4c253985fd" title="PatSearch is a Function to search for specific patterns in a text. (Be aware that its case sensitive!..." alt="" coords="276,276,380,302"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="197,268,261,277,260,282,196,274"/>
+<area shape="rect" id="Node000013" href="$doublyLinkedList_8c.html#a5d095d9860528fabedccf07ff4b3a39a" title="Print the whole List without trailing &#160;." alt="" coords="294,325,362,351"/>
+<area shape="poly" id="edge13_Node000002_Node000013" title=" " alt="" coords="174,276,245,312,279,323,278,329,243,317,172,281"/>
+<area shape="rect" id="Node000014" href="$queue_8c.html#af24e4f9fd2be045f50cee84fdfc9f974" title=" " alt="" coords="298,375,357,400"/>
+<area shape="poly" id="edge14_Node000002_Node000014" title=" " alt="" coords="162,276,195,318,219,342,245,361,284,377,282,382,243,366,215,346,191,322,158,280"/>
+<area shape="rect" id="Node000020" href="$recursiveFib_8c.html#a28440cd6841c3c0a31a74983bd8ef120" title="Prints the return value of the called function RecFib." alt="" coords="279,460,376,486"/>
+<area shape="poly" id="edge20_Node000002_Node000020" title=" " alt="" coords="159,277,192,338,217,376,246,411,292,449,289,453,242,415,213,379,188,341,155,280"/>
+<area shape="rect" id="Node000022" href="$stack_8c.html#a94b95e06b23f703cf934fa695efd964e" title=" " alt="" coords="300,596,355,622"/>
+<area shape="poly" id="edge23_Node000002_Node000022" title=" " alt="" coords="157,277,189,371,215,434,246,497,277,544,308,583,303,586,272,547,242,499,210,437,184,373,152,279"/>
+<area shape="rect" id="Node000004" href="$doublyLinkedList_8c.html#af3dd5c4f79c00c0d3e45d5d82f92ecb1" title="Checks if the adress of a node is already in a list (rekursive)" alt="" coords="465,29,601,55"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="411,40,449,40,449,45,411,45"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="505,30,499,21,502,11,514,5,533,3,553,5,564,12,561,16,552,10,533,8,516,10,506,15,504,20,509,28"/>
+<area shape="rect" id="Node000008" href="$dynamicFib_8c.html#a976b779e14ab8fdb6f49eb59d559f798" title="DynFib is a function that is calculating the fibonacci number dynamic. It&#39;s a lot faster as the recur..." alt="" coords="502,128,564,154"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="372,177,487,149,488,154,374,182"/>
+<area shape="rect" id="Node000010" href="$doublyLinkedList_8c.html#a9182d7b7dfe765d57cf721aa4baed7f0" title="Frees the memory of a node." alt="" coords="496,177,570,203"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="360,229,480,200,481,205,361,234"/>
+<area shape="rect" id="Node000011" href="$doublyLinkedList_8c.html#a59ba3b973d19b65b116bdf11c654117e" title="Removes a node from the list." alt="" coords="459,227,607,252"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="361,237,444,237,444,242,361,242"/>
+<area shape="rect" id="Node000015" href="$queue_8c.html#aa67100f093cfdb5a6ea9982beacd0368" title="Create a Queue object." alt="" coords="484,276,582,302"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="357,380,384,373,410,361,424,349,433,337,443,324,458,311,469,305,471,309,461,315,446,327,438,340,428,353,413,366,386,378,359,386"/>
+<area shape="rect" id="Node000016" href="$queue_8c.html#a6d80a21c675d1cda8cf93eda2fae9ac1" title="Delete Queue object." alt="" coords="490,325,576,351"/>
+<area shape="poly" id="edge16_Node000014_Node000016" title=" " alt="" coords="357,378,475,349,476,354,358,383"/>
+<area shape="rect" id="Node000017" href="$queue_8c.html#a37b7b125a5f8aec264e522951959ed84" title="Print the whole queue." alt="" coords="490,375,576,400"/>
+<area shape="poly" id="edge17_Node000014_Node000017" title=" " alt="" coords="358,385,474,385,474,390,358,390"/>
+<area shape="rect" id="Node000018" href="$queue_8c.html#a6b78f591001bbdfef0dbb71b46cc92dd" title="Put new data in the Queue object." alt="" coords="488,424,578,450"/>
+<area shape="poly" id="edge18_Node000014_Node000018" title=" " alt="" coords="358,392,474,420,473,425,357,397"/>
+<area shape="rect" id="Node000019" href="$queue_8c.html#ae8fd6bdb94d98686024747cdb3c3c7ac" title="Check if Queue is full." alt="" coords="655,424,746,450"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="578,434,639,434,639,440,578,440"/>
+<area shape="rect" id="Node000021" href="$recursiveFib_8c.html#aba9d5cc2470e890d8ce4a06ce6b15da1" title="RecFib is a function wihich can calculate the fibonacci number by calling it self n times." alt="" coords="502,497,564,523"/>
+<area shape="poly" id="edge21_Node000020_Node000021" title=" " alt="" coords="377,479,487,499,486,504,376,484"/>
+<area shape="poly" id="edge22_Node000021_Node000021" title=" " alt="" coords="505,498,499,489,502,479,514,473,533,471,553,473,564,480,561,484,552,478,533,476,516,478,506,483,504,488,509,496"/>
+<area shape="rect" id="Node000023" href="$stack_8c.html#a545dd7a5fa19414e755f3e8806558286" title="Create a Stack object." alt="" coords="486,547,580,572"/>
+<area shape="poly" id="edge24_Node000022_Node000023" title=" " alt="" coords="355,600,471,572,472,577,357,605"/>
+<area shape="rect" id="Node000024" href="$stack_8c.html#aa3bf16f719db2b4b1fe610412ba4072e" title="Free the memory of a given Stack object." alt="" coords="492,596,574,622"/>
+<area shape="poly" id="edge25_Node000022_Node000024" title=" " alt="" coords="356,606,477,606,477,612,356,612"/>
+<area shape="rect" id="Node000025" href="$stack_8c.html#a0e1836f3913d5e4c2435c73061cfbb98" title="Print the whole stack." alt="" coords="492,645,574,671"/>
+<area shape="poly" id="edge26_Node000022_Node000025" title=" " alt="" coords="357,613,477,642,476,647,355,618"/>
+<area shape="rect" id="Node000026" href="$stack_8c.html#ae30a955f0e0be07f32a8fa1a68c962ec" title="Push a new object to the stack." alt="" coords="490,695,576,720"/>
+<area shape="poly" id="edge27_Node000022_Node000026" title=" " alt="" coords="351,620,400,650,460,681,476,688,474,693,458,686,397,654,348,625"/>
+<area shape="rect" id="Node000027" href="$stack_8c.html#a2520d41f5276974dcfa2e02f065a6f5d" title="Check if the Stack object is full." alt="" coords="657,695,744,720"/>
+<area shape="poly" id="edge28_Node000026_Node000027" title=" " alt="" coords="576,705,641,705,641,710,576,710"/>
+</map>

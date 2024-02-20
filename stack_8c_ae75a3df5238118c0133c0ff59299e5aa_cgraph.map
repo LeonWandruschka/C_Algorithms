@@ -1,0 +1,5 @@
+<map id="PopStack" name="PopStack">
+<area shape="rect" id="Node000001" title="Pop the object on top of the stack." alt="" coords="5,5,84,31"/>
+<area shape="rect" id="Node000002" href="$stack_8c.html#a7cda7091c9b75786838d7427d75d0384" title="Check if the Stack object is empty." alt="" coords="132,5,234,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,16,116,16,116,21,84,21"/>
+</map>

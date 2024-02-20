@@ -1,0 +1,11 @@
+<map id="memory/src/doublyLinkedList.c" name="memory/src/doublyLinkedList.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="20,5,221,31"/>
+<area shape="rect" id="Node000002" href="$doublyLinkedList_8h.html" title=" " alt="" coords="56,79,185,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,31,123,63,118,63,118,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,153,65,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,107,62,145,59,141,104,103"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="89,153,152,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="123,105,123,137,118,137,118,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="176,153,249,178"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="138,103,187,141,183,145,134,107"/>
+</map>

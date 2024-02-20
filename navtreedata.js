@@ -25,39 +25,40 @@
 var NAVTREE =
 [
   [ "C ALGORITHM", "index.html", [
-    [ "Contributor Covenant Code of Conduct", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html", [
-      [ "Our Pledge", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md1", null ],
-      [ "Our Standards", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md2", null ],
-      [ "Enforcement Responsibilities", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md3", null ],
-      [ "Scope", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md4", null ],
-      [ "Enforcement", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md5", null ],
-      [ "Enforcement Guidelines", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md6", [
-        [ "1. Correction", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md7", null ],
-        [ "2. Warning", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md8", null ],
-        [ "3. Temporary Ban", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md9", null ],
-        [ "4. Permanent Ban", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md10", null ]
+    [ "Contributor Covenant Code of Conduct", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html", [
+      [ "Our Pledge", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#our-pledge", null ],
+      [ "Our Standards", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#our-standards", null ],
+      [ "Enforcement Responsibilities", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#enforcement-responsibilities", null ],
+      [ "Scope", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#scope", null ],
+      [ "Enforcement", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#enforcement", null ],
+      [ "Enforcement Guidelines", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#enforcement-guidelines", [
+        [ "1. Correction", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md1-correction", null ],
+        [ "2. Warning", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md2-warning", null ],
+        [ "3. Temporary Ban", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md3-temporary-ban", null ],
+        [ "4. Permanent Ban", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#autotoc_md4-permanent-ban", null ]
       ] ],
-      [ "Attribution", "md__c_o_d_e__o_f__c_o_n_d_u_c_t.html#autotoc_md11", null ]
+      [ "Attribution", "md__c_o_d_e___o_f___c_o_n_d_u_c_t.html#attribution", null ]
     ] ],
     [ "C Algorithms", "md__r_e_a_d_m_e.html", [
-      [ "Table of Contents", "md__r_e_a_d_m_e.html#autotoc_md13", null ],
-      [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md14", [
-        [ "Building the Executable", "md__r_e_a_d_m_e.html#autotoc_md15", null ]
+      [ "Table of Contents", "md__r_e_a_d_m_e.html#table-of-contents", null ],
+      [ "Usage", "md__r_e_a_d_m_e.html#usage", [
+        [ "Building the Executable", "md__r_e_a_d_m_e.html#building-the-executable", null ]
       ] ],
-      [ "Prior requirements", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
-      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#autotoc_md17", null ]
+      [ "Dependencies", "md__r_e_a_d_m_e.html#dependencies", null ],
+      [ "For more information please read the documentation", "md__r_e_a_d_m_e.html#for-more-information-please-read-the-documentation", null ],
+      [ "Future Updates", "md__r_e_a_d_m_e.html#future-updates", null ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Members", "functions.html", [
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Structure Index", "classes.html", null ],
+      [ "Data Fields", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
+      [ "Globals", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Typedefs", "globals_type.html", null ],

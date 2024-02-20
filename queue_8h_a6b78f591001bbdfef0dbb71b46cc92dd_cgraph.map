@@ -1,0 +1,5 @@
+<map id="PushQueue" name="PushQueue">
+<area shape="rect" id="Node000001" title="Put new data in the Queue object." alt="" coords="5,5,95,31"/>
+<area shape="rect" id="Node000002" href="$queue_8c.html#ae8fd6bdb94d98686024747cdb3c3c7ac" title="Check if Queue is full." alt="" coords="143,5,234,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,16,127,16,127,21,95,21"/>
+</map>

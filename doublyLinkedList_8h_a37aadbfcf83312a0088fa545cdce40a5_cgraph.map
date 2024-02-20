@@ -1,0 +1,6 @@
+<map id="appendNodeToEndOfList" name="appendNodeToEndOfList">
+<area shape="rect" id="Node000001" title="Append a node to the end of a list." alt="" coords="5,29,173,55"/>
+<area shape="rect" id="Node000002" href="$doublyLinkedList_8c.html#af3dd5c4f79c00c0d3e45d5d82f92ecb1" title="Checks if the adress of a node is already in a list (rekursive)" alt="" coords="221,29,357,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,40,205,40,205,45,173,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="255,30,249,21,253,11,266,5,289,3,313,5,326,12,323,17,312,10,289,8,268,10,257,15,254,20,260,27"/>
+</map>

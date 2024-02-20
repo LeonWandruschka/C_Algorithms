@@ -114,11 +114,11 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>{</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordflow">while</span>(1)</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>  {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">char</span> func;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    printf(<span class="stringliteral">&quot;Which function du you want to test? &quot;</span>);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    func = getc(stdin);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordtype">char</span> func[2];</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    printf(<span class="stringliteral">&quot;Which function du you want to test: &quot;</span>);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    fgets(func, 3, stdin);</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">switch</span> (func)</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordflow">switch</span> (func[0])</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    {</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordflow">case</span> <span class="charliteral">&#39;a&#39;</span>: </div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>      {</div>
@@ -174,9 +174,9 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>      {</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        printf(<span class="stringliteral">&quot;\nRunning double linked list...\n&quot;</span>);</div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <a class="code hl_struct" href="struct__List__.html">List</a> *list = <a class="code hl_function" href="doublyLinkedList_8h.html#adf0d926330b762066c03d55073b8eef1">createList</a>(); </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_struct" href="struct__Node__.html">Node</a> *node = <a class="code hl_function" href="doublyLinkedList_8h.html#a507450da851d29d5541f4b5ec884d166">createNode</a>(); </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>        <a class="code hl_struct" href="struct__List__.html">List</a> *list = <a class="code hl_function" href="doublyLinkedList_8h.html#adf0d926330b762066c03d55073b8eef1">createList</a>();  </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>        <a class="code hl_struct" href="struct__Node__.html">Node</a> *node = <a class="code hl_function" href="doublyLinkedList_8h.html#a507450da851d29d5541f4b5ec884d166">createNode</a>();  </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        node-&gt;<a class="code hl_variable" href="struct__Node__.html#a59bae1e4d21fffdb70cf5e4c07aff0a0">data_</a> = 10;</div>
 <div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <a class="code hl_function" href="doublyLinkedList_8h.html#a37aadbfcf83312a0088fa545cdce40a5">appendNodeToEndOfList</a>(list, node, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
@@ -188,9 +188,9 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        node-&gt;<a class="code hl_variable" href="struct__Node__.html#a59bae1e4d21fffdb70cf5e4c07aff0a0">data_</a> = 120;</div>
 <div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>        <a class="code hl_function" href="doublyLinkedList_8h.html#a37aadbfcf83312a0088fa545cdce40a5">appendNodeToEndOfList</a>(list, node, <span class="keyword">false</span>);</div>
 <div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
-<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <a class="code hl_function" href="doublyLinkedList_8h.html#a5d095d9860528fabedccf07ff4b3a39a">printList</a>(list);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>        <a class="code hl_function" href="doublyLinkedList_8h.html#a5d095d9860528fabedccf07ff4b3a39a">printList</a>(list);            </div>
 <div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <a class="code hl_function" href="doublyLinkedList_8h.html#ad42718bebb4c3189962764112060b8bf">freeList</a>(list);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        <a class="code hl_function" href="doublyLinkedList_8h.html#ad42718bebb4c3189962764112060b8bf">freeList</a>(list);             </div>
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span> </div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
@@ -199,28 +199,40 @@ $(function() { codefold.init(0); });
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    <span class="keywordflow">case</span> <span class="charliteral">&#39;X&#39;</span>:</div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordflow">case</span> <span class="charliteral">&#39;x&#39;</span>:</div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="comment">//Exitiong the programm</span></div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        <span class="comment">//Exiting the programm</span></div>
 <div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        exit(0);</div>
 <div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span> </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">default</span>:</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        printf(<span class="stringliteral">&quot;Enter the following characters to call the specific functions:\n&quot;</span>);</div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        printf(<span class="stringliteral">&quot;(a): Recursive Fibonacci\n&quot;</span>);</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        printf(<span class="stringliteral">&quot;(b): Dynamic Fibonacci\n&quot;</span>);</div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        printf(<span class="stringliteral">&quot;(c): Patternsearch\n&quot;</span>);</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        printf(<span class="stringliteral">&quot;(d): Stack\n&quot;</span>);</div>
-<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        printf(<span class="stringliteral">&quot;(e): Queue\n&quot;</span>);</div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        printf(<span class="stringliteral">&quot;(X): Exit the programm\n&quot;</span>);</div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        fflush(stdin);</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="keywordflow">break</span>;</div>
-<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    }</div>
-<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>  fflush(stdin);</div>
-<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>  }</div>
-<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>}</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">case</span> <span class="charliteral">&#39;-&#39;</span>:</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        <span class="keywordflow">switch</span> (func[1])</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        {</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;h&#39;</span>:</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>          printf(<span class="stringliteral">&quot;\nEnter the following characters to call the specific functions:\n&quot;</span>);</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>          printf(<span class="stringliteral">&quot;(a): Recursive Fibonacci\n&quot;</span>);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>          printf(<span class="stringliteral">&quot;(b): Dynamic Fibonacci\n&quot;</span>);</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>          printf(<span class="stringliteral">&quot;(c): Patternsearch\n&quot;</span>);</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>          printf(<span class="stringliteral">&quot;(d): Stack\n&quot;</span>);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>          printf(<span class="stringliteral">&quot;(e): Queue\n&quot;</span>);</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>          printf(<span class="stringliteral">&quot;(f): Double linked list\n&quot;</span>);</div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>          printf(<span class="stringliteral">&quot;(X): Exit the programm\n\n&quot;</span>);</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>          printf(<span class="stringliteral">&quot;Invalid argument. Use -h for help.\n&quot;</span>);</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>          <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        }</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span>    <span class="keywordflow">default</span>:</div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>        printf(<span class="stringliteral">&quot;Invalid argument. Use -h for help.\n&quot;</span>);</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    }</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>  fflush(stdin);</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>  }</div>
+<div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>}</div>
 </div>
-<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span> </div>
-<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
-<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span> </div>
-<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
 <div class="ttc" id="adoublyLinkedList_8h_html"><div class="ttname"><a href="doublyLinkedList_8h.html">doublyLinkedList.h</a></div></div>
 <div class="ttc" id="adoublyLinkedList_8h_html_a37aadbfcf83312a0088fa545cdce40a5"><div class="ttname"><a href="doublyLinkedList_8h.html#a37aadbfcf83312a0088fa545cdce40a5">appendNodeToEndOfList</a></div><div class="ttdeci">Node * appendNodeToEndOfList(List *list, Node *node, bool check_for_existing_node)</div><div class="ttdoc">Append a node to the end of a list.</div><div class="ttdef"><b>Definition</b> <a href="doublyLinkedList_8c_source.html#l00115">doublyLinkedList.c:115</a></div></div>
 <div class="ttc" id="adoublyLinkedList_8h_html_a507450da851d29d5541f4b5ec884d166"><div class="ttname"><a href="doublyLinkedList_8h.html#a507450da851d29d5541f4b5ec884d166">createNode</a></div><div class="ttdeci">Node * createNode(void)</div><div class="ttdoc">Allocates memory for a new node and initalizes it.</div><div class="ttdef"><b>Definition</b> <a href="doublyLinkedList_8c_source.html#l00006">doublyLinkedList.c:6</a></div></div>

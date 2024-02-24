@@ -75,19 +75,98 @@ $(function() {
   <div class="headertitle"><div class="title">C Algorithms </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_README"></a> Go to contributions doc <img src="https://img.shields.io/github/languages/top/LeonWandruschka/C_Algorithms" alt="GitHub top language" class="inline"/> <img src="https://img.shields.io/github/languages/code-size/LeonWandruschka/C_Algorithms" alt="GitHub code size in bytes" class="inline"/> <a href="https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml"><img src="https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml/badge.svg" alt="Docs" style="pointer-events: none;" class="inline"/></a></p>
-<p>This is an open source project to collect various C algorithms and data structures and make them available to everyone. Everyone is welcome to contribute to the project to make it easier for other developers to search for algorithms.</p>
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <a class="el" href="CONTRIBUTING_8md.html">Go to contributions doc</a> <img src="https://img.shields.io/github/languages/top/LeonWandruschka/C_Algorithms" alt="GitHub Top Language" class="inline"/> <img src="https://img.shields.io/github/languages/code-size/LeonWandruschka/C_Algorithms" alt="GitHub Code Size in Bytes" class="inline"/> <a href="https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml"><img src="https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml/badge.svg" alt="Docs" style="pointer-events: none;" class="inline"/></a></p>
+<p>This open-source project aims to collect various C algorithms and data structures, making them available to everyone. We welcome contributions from anyone interested in improving or expanding the project.</p>
 <h1>Table of Contents</h1>
 <ul>
-<li><a href="misc/src/recursiveFib.c">Recursive Fibonacci</a> &rarr; Uses a recursive function call to retrun the nth fibonacci number</li>
-<li><a href="misc/src/dynamicFib.c">Dynamic Fibonacci</a> &rarr; Uses a for loop to calculate the nth fibonacci number. (Much faster, especially at higher numbers)</li>
-<li><a href="search/src/patternSearch.c">Pattern Search</a> &rarr; Search for a specific pattern in a string</li>
-<li><a href="memory/src/stack.c">Stack</a> &rarr; Stack like memory (LIFO)</li>
-<li><a href="memory/src/queue.c">Queue</a> &rarr; Queue like memory (FIFO)</li>
+<li>C Algorithms<ul>
+<li>Table of Contents</li>
+<li>Getting Started<ul>
+<li>Prerequisites</li>
+<li>Installation</li>
 </ul>
+</li>
+<li>Usage</li>
+<li>Building the Executable<ul>
+<li>Using CMake</li>
+</ul>
+</li>
+<li>Dependencies</li>
+<li>Project Structure</li>
+<li>Contributing</li>
+<li>Authors and Acknowledgment</li>
+<li>License</li>
+<li>Contact Information</li>
+<li>Future Updates</li>
+</ul>
+</li>
+</ul>
+<h1>Getting Started</h1>
+<h2>Prerequisites</h2>
+<ul>
+<li>GCC or Clang compiler</li>
+<li>CMake</li>
+<li>Conan (optional for some libraries)</li>
+</ul>
+<h2>Installation</h2>
+<p>To get started with this project:</p>
+<ol type="1">
+<li>Clone the repository: <code>git clone <a href="https://github.com/LeonWandruschka/C_Algorithms.git">https://github.com/LeonWandruschka/C_Algorithms.git</a></code></li>
+<li>Navigate to the cloned directory and install dependencies (if necassery).</li>
+</ol>
 <h1>Usage</h1>
-<p>To test one of the librarys download or clone the repository. In your Terminal or CMD go to the downloaded/cloned folder and use <code>cmake</code> to create an executable file in the build directory. The programm will ask you to choose a library to test. Each library has an own character <code>a</code>, <code>b</code>, and so on to see an overview press <code>Enter</code> or use <code>h</code>/<code>H</code>.</p>
-<h2>Building the Executable</h2>
+<p>After installation, you can build and run specific algorithms as described below. Use <code>-h</code> for help on running an algorithm, <code>x</code> or <code>X</code> to exit the program, or <code>CTRL+C</code> for an immediate stop.</p>
+<h1>Building the Executable</h1>
+<h2>Using CMake</h2>
+<ol type="1">
+<li>Generate build files: <code>cmake -S . -B build</code></li>
+<li>Build the project: <code>cmake --build build</code></li>
+</ol>
+<p>To run the executable after building, use: <code>cmake --build build --target runExecutable</code></p>
+<p>For a clean build, add <code>--clean-first</code>.</p>
+<h1>Dependencies</h1>
+<p>Ensure you have <code>gcc</code> or <code>clang</code>, and <code>CMake</code> installed. <code>Conan</code> is required for managing some library dependencies.</p>
+<h1>Project Structure</h1>
+<p>Here's an overview of the project structure:</p>
+<div class="fragment"><div class="line"> shell</div>
+<div class="line">.</div>
+<div class="line">├── CODE_OF_CONDUCT.md</div>
+<div class="line">├── CmakeLists.txt</div>
+<div class="line">├── Doxyfile</div>
+<div class="line">├── LICENSE</div>
+<div class="line">├── README.md</div>
+<div class="line">├── memory</div>
+<div class="line">│   ├── CmakeLists.txt</div>
+<div class="line">│   ├── include</div>
+<div class="line">│   └── src</div>
+<div class="line">├── misc</div>
+<div class="line">│   ├── CmakeLists.txt</div>
+<div class="line">│   ├── include</div>
+<div class="line">│   └── src</div>
+<div class="line">├── search</div>
+<div class="line">│   ├── CmakeLists.txt</div>
+<div class="line">│   ├── include</div>
+<div class="line">│   └── src</div>
+<div class="line">└── src</div>
+<div class="line">    ├── CmakeLists.txt</div>
+<div class="line">    └── main.c</div>
+</div><!-- fragment --><h1>Contributing</h1>
+<p>We welcome contributions! Please see <a class="el" href="CONTRIBUTING_8md.html">CONTRIBUTING.md</a> for more details on how to contribute to this project.</p>
+<h1>Authors and Acknowledgment</h1>
+<ul>
+<li><b>Leon Wandruschka</b> - <em>Initial work</em></li>
+</ul>
+<p>Thanks to all the contributors who participate in this project.</p>
+<h1>License</h1>
+<p>This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.</p>
+<h1>Contact Information</h1>
+<p>For any inquiries or contributions, please contact <a href="https://github.com/LeonWandruschka">Leon Wandruschka</a>.</p>
+<h1>Future Updates</h1>
+<ul>
+<li>Addition of more algorithms and data structures.</li>
+<li>Integration of Conan packages for enhanced functionality.</li>
+<li>Implementation of Catch2 for comprehensive testing. </li>
+</ul>
 </div></div><!-- PageDoc -->
 <a href="doxygen_crawl.html"/>
 </div><!-- contents -->

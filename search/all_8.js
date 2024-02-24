@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['next_5f_0',['next_',['../struct__Node__.html#a3f7002809c430bb7af025cd5ceb2fcd4',1,'_Node_']]],
-  ['node_1',['Node',['../doublyLinkedList_8h.html#a5bdf2174facc76de1e1f07ea61471fae',1,'doublyLinkedList.h']]]
+  ['main_0',['main',['../main_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main.c']]],
+  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
+  ['myqueue_5ft_2',['myqueue_t',['../queue_8h.html#aecd0b837e64ea52fe37ad2171d616406',1,'queue.h']]],
+  ['mystack_5ft_3',['mystack_t',['../stack_8h.html#afa7e3148029d1da4b6accd14db0572b5',1,'stack.h']]]
 ];

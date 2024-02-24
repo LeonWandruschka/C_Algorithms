@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['of_20conduct_0',['Contributor Covenant Code of Conduct',['../md_CODE__OF__CONDUCT.html',1,'']]]
+  ['how_20to_20contribute_0',['How to Contribute',['../md_CONTRIBUTING.html',1,'']]]
 ];

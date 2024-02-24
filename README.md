@@ -1,53 +1,116 @@
 # C Algorithms
 
-[![contributions - welcome](https://img.shields.io/badge/contributions-welcome-blue)](/CONTRIBUTING.md "Go to contributions doc")
-![GitHub top language](https://img.shields.io/github/languages/top/LeonWandruschka/C_Algorithms) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/LeonWandruschka/C_Algorithms) [![Docs](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue.svg)](/CONTRIBUTING.md "Go to contributions doc")
+![GitHub Top Language](https://img.shields.io/github/languages/top/LeonWandruschka/C_Algorithms)
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/LeonWandruschka/C_Algorithms)
+[![Docs](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml/badge.svg)](https://github.com/LeonWandruschka/C_Algorithms/actions/workflows/documentation.yml)
 
-This is an open source project to collect various C algorithms and data structures and make them available to everyone.
-Everyone is welcome to contribute to the project to make it easier for other developers to search for algorithms.
+This open-source project aims to collect various C algorithms and data structures, making them available to everyone. We welcome contributions from anyone interested in improving or expanding the project.
 
 ## Table of Contents
 
-- [Recursive Fibonacci](misc/src/recursiveFib.c) &rarr; Uses a recursive function call to retrun the nth fibonacci number
-- [Dynamic Fibonacci](misc/src/dynamicFib.c) &rarr; Uses a for loop to calculate the nth fibonacci number. (Much faster, especially at higher numbers)
-- [Pattern Search](search/src/patternSearch.c) &rarr; Search for a specific pattern in a string
-- [Stack](memory/src/stack.c) &rarr; Stack like memory (LIFO)
-- [Queue](memory/src/queue.c) &rarr; Queue like memory (FIFO)
+- [C Algorithms](#c-algorithms)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Building the Executable](#building-the-executable)
+    - [Using CMake](#using-cmake)
+  - [Dependencies](#dependencies)
+  - [Project Structure](#project-structure)
+  - [Contributing](#contributing)
+  - [Authors and Acknowledgment](#authors-and-acknowledgment)
+  - [License](#license)
+  - [Contact Information](#contact-information)
+  - [Future Updates](#future-updates)
+
+## Getting Started
+
+### Prerequisites
+
+- GCC or Clang compiler
+- CMake
+- Conan (optional for some libraries)
+
+### Installation
+
+To get started with this project:
+
+1. Clone the repository: `git clone https://github.com/LeonWandruschka/C_Algorithms.git`
+2. Navigate to the cloned directory and install dependencies (if necassery).
 
 ## Usage
 
-To test one of the librarys download or clone the repository.
-In your Terminal or CMD go to the downloaded/cloned folder and use ```cmake``` to create an executable file in the build directory.
-The programm will ask you to choose a library to test. Each library has an own character ```a```, ```b```, and so on to see an overview press ```Enter``` or use ```h```/```H```.
+After installation, you can build and run specific algorithms as described below. Use `-h` for help on running an algorithm, `x` or `X` to exit the program, or `CTRL+C` for an immediate stop.
 
-### Building the Executable
+## Building the Executable
 
-<!--- Build using Makefile and Cmake --->
+### Using CMake
 
+1. Generate build files: `cmake -S . -B build`
+2. Build the project: `cmake --build build`
 
-Building the Executable using Cmake:
+To run the executable after building, use: `cmake --build build --target runExecutable`
 
-At first run ```cmake -S . -B build``` in the source directory
-now run ```cmake --build build --target runExecutable``` to build and run teh executable.
-If you only want to build the project you can use just ```cmake --build build```this will build the executable in the ```build/src/``` folder.
-
-To create a clean build use ```cmake --build build --clean-first``` add the target if you want to run the executable file.
+For a clean build, add `--clean-first`.
 
 ## Dependencies
 
-- Understanding of c source code.
-- ```gcc``` or ```clang``` must be installed.
-- Cmake must be installed
-- Conan must be installed for some libraries
+Ensure you have `gcc` or `clang`, and `CMake` installed. `Conan` is required for managing some library dependencies.
 
-## For more information please read the documentation
+## Project Structure
 
-[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue)](https://leonwandruschka.github.io/C_Algorithms/)
+Here's an overview of the project structure:
+
+``` shell
+.
+├── CODE_OF_CONDUCT.md
+├── CmakeLists.txt
+├── Doxyfile
+├── LICENSE
+├── README.md
+├── memory
+│   ├── CmakeLists.txt
+│   ├── include
+│   └── src
+├── misc
+│   ├── CmakeLists.txt
+│   ├── include
+│   └── src
+├── search
+│   ├── CmakeLists.txt
+│   ├── include
+│   └── src
+└── src
+    ├── CmakeLists.txt
+    └── main.c
+```
+
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for more details on how to contribute to this project.
+
+<!--## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/LeonWandruschka/C_Algorithms/tags).-->
+
+## Authors and Acknowledgment
+
+- **Leon Wandruschka** - *Initial work*
+
+Thanks to all the contributors who participate in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact Information
+
+For any inquiries or contributions, please contact [Leon Wandruschka](https://github.com/LeonWandruschka).
 
 ## Future Updates
 
-- Use Cmake as build system.
-- Add additional algorithms.
-- Add needed conan packages for window display.
-- Put Algorithms in specific folders.
-- Add Catch2 for testing
+- Addition of more algorithms and data structures.
+- Integration of Conan packages for enhanced functionality.
+- Implementation of Catch2 for comprehensive testing.

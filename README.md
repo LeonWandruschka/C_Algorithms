@@ -38,7 +38,7 @@ This open-source project aims to collect various C algorithms and data structure
 To get started with this project:
 
 1. Clone the repository: `git clone https://github.com/LeonWandruschka/C_Algorithms.git`
-2. Navigate to the cloned directory and install dependencies (if necassery).
+2. Navigate to the cloned directory and install dependencies (if necessary).
 
 ## Usage
 

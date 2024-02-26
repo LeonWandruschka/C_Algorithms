@@ -9,9 +9,5 @@ class CONAN_SETUP(ConanFile):
   default_options = {"*:shared": False}
 
   def requirements(self):
-    self.requires("sdl_ttf/[~2.0]")
-    self.requires("sdl_image/[~2.0]")
-    self.requires("sdl/2.28.3")
     self.requires("catch2/3.5.2")
-    self.requires("libpng/1.6.42", override=True)
     

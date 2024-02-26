@@ -12,9 +12,7 @@ jobs:
 
     container:
       image: conanio/gcc9
-    defaults:
-      run:
-        working-directory: project
+      options: --user root
 
     steps:
     - uses: actions/checkout@v4

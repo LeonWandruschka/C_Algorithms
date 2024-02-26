@@ -20,7 +20,7 @@ jobs:
     - name: Install system requirements
       run: |
         sudo apt-get update
-        sudo apt-get install -y libegl-dev libegl1-mesa-dev
+        sudo apt-get upgrade 
 
     - name: Update Conan
       run: pip install --upgrade conan

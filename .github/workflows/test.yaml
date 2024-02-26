@@ -38,7 +38,7 @@ jobs:
 
     # If you want to run the executable add this step
     - name: Run the executable
-      run: cmake --build build --target runTest
+      run: ./build/test/test_exec
 
     # For a clean build, you can prepend the build step with `--clean-first`
     # - name: Clean build

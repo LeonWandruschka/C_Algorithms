@@ -9,7 +9,7 @@ add_subdirectory(misc)
 add_subdirectory(search)
 add_subdirectory(src)
 
-if(UNIT_TEST)
+if(CONAN)
 find_package(CATCH2 REQUIRED CONFIG)
 include_directories(${CATCH2_INCLUDE_DIRS})
 

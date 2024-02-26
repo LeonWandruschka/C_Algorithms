@@ -19,7 +19,14 @@ This open-source project aims to collect various C algorithms and data structure
     - [Using CMake](#using-cmake)
       - [Built without Conan](#built-without-conan)
       - [Built with Conan](#built-with-conan)
-  - [Dependencies](#dependencies)
+  - [IDE Setup](#ide-setup)
+  - [Setting Up Dependencies](#setting-up-dependencies)
+    - [Installing CMake](#installing-cmake)
+      - [All Platforms (Windows, Linux, and macOS)](#all-platforms-windows-linux-and-macos)
+      - [Quick Install on Linux/macOS](#quick-install-on-linuxmacos)
+    - [Installing Conan](#installing-conan)
+      - [Linux and Windows](#linux-and-windows)
+      - [macOS](#macos)
   - [Project Structure](#project-structure)
   - [Contributing](#contributing)
   - [Authors and Acknowledgment](#authors-and-acknowledgment)
@@ -73,9 +80,48 @@ To run the executable after building, use: `cmake --build build --target runExec
 
 For a clean build, add `--clean-first`.
 
-## Dependencies
+To run the tests you can use `ctest --test-dir ./build/test` from the projects source directory.
 
-Ensure you have `gcc` or `clang`, and `CMake` installed. `Conan` is required for managing some library dependencies.
+## IDE Setup
+
+To use the conan libraries add the include folder to your IDE.
+For Linux and macOS the conan install folder should be located at `~/.conan/`.
+For Windows users it should be located under `C:\Users\username\.conan\`.
+
+## Setting Up Dependencies
+
+Before starting, ensure that you have either `gcc` or `clang` installed as your C/C++ compiler. This setup guide will also cover the installation of `CMake` for building the project and `Conan` for managing external library dependencies.
+
+### Installing CMake
+
+CMake is crucial for configuring and generating the build files. Follow these steps to install CMake on your system:
+
+#### All Platforms (Windows, Linux, and macOS)
+
+- Download and install CMake from the [official CMake downloads page](https://cmake.org/download/). During the installation, if prompted, remember to add CMake to your system's PATH to make it accessible from the command line.
+
+#### Quick Install on Linux/macOS
+
+For a faster setup on Linux and macOS, you can use the respective package managers:
+
+- **Linux (Debian-based distributions):** `sudo apt update && sudo apt install cmake`
+
+- **macOS (Using Homebrew):** `brew install cmake`
+
+### Installing Conan
+
+Conan simplifies external library management. Below are the instructions for installing Conan on different operating systems.
+
+#### Linux and Windows
+
+1. **Install Python:** Visit the [official Python website](https://www.python.org/downloads/) and follow the instructions to install Python on your system.
+2. **Install Conan** With Python installed, open a terminal or command prompt and execute the following command: `pip install conan`
+3. **Set Up Conan Profile:** Automatically detect and create a Conan profile by running: `conan profile new default --detect`
+
+#### macOS
+
+1. **Install Conan:** If you have Homebrew installed, you can easily install Conan by running:`brew install conan`
+2. **Set Up Conan Profile:** Like on Linux and Windows, configure your Conan profile with:
 
 ## Project Structure
 

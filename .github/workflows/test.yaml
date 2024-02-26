@@ -10,20 +10,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    container:
-      image: conanio/gcc9
-      options: --user root
-
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install system requirements
+    - name: Install CMake, Clang and Conan
       run: |
         sudo apt-get update
-        sudo apt-get upgrade -y
-
-    - name: Update Conan
-      run: pip install --upgrade conan
+        sudo apt-get install -y cmake clang
+        sudo apt-get install -y python3-pip
+        pip3 install conan
 
     - name: Set Conan Profile
       run: conan profile detect --force

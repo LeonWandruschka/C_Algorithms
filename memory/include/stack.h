@@ -1,6 +1,10 @@
 #ifndef STACK_H
 #define STACK_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdint.h>
 #include <math.h>
 #include <stdbool.h>
@@ -18,21 +22,17 @@ typedef struct stack
 
 
 mystack_t *CreateStack(uint32_t capacity);
-
 mystack_t *FreeStack(mystack_t *stack);
-
 bool StackIsEmpty(mystack_t *stack);
-
 bool StackIsFull(mystack_t *stack);
-
 void PushStack(mystack_t *stack, stack_value_t value);
-
 stack_value_t PopStack(mystack_t *stack);
-
 stack_value_t TopStack(mystack_t *stack);
-
 void PrintStack(mystack_t *stack);
-
 void Stack();
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif //STACK_H

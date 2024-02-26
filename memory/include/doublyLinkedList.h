@@ -1,6 +1,10 @@
 #ifndef DOUBLY_LINKED_LIST_H
 #define DOUBLY_LINKED_LIST_H
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -39,5 +43,9 @@ Node *removeNodeWithValue(List* list, int data);
 Node *remove_first(List *list);
 bool checkElementInList(Node *current_node, Node *node_to_check);
 void printList(List *list);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif //DOUBLY_LINKED_LIST_H

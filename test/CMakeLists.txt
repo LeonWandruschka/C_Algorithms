@@ -1,15 +1,16 @@
 cmake_minimum_required(VERSION 3.27.0)
 
-project(Source VERSION 1.0.0 LANGUAGES CXX)
+project(Test VERSION 1.0.0 LANGUAGES CXX)
 
-add_executable(test_exec main.cpp)
+enable_testing()
 
-target_link_libraries(test_exec PRIVATE mem_lib misc_lib search_lib)
-target_link_libraries(test_exec PRIVATE Catch2::Catch2WithMain)
+add_executable(${PROJECT_NAME} main.cpp)
 
-add_custom_target(runTest
-    COMMAND ./test/test_exec
-    DEPENDS test_exec
-    WORKING_DIRECTORY ${CMAKE_BINARY_DIR}
-    COMMENT "Running the Test as a post-build step"
-)
+target_link_libraries(${PROJECT_NAME} PRIVATE Catch2::Catch2WithMain)
+target_link_libraries(${PROJECT_NAME} PRIVATE mem_lib misc_lib search_lib)
+
+
+include(CTest)
+add_test(NAME Sample-Test COMMAND ${PROJECT_NAME} [sample_test])
+add_test(NAME Recursive-Fib-Test COMMAND ${PROJECT_NAME} [recursive_fibonacci])
+add_test(NAME Dynamic-Fib-Test COMMAND ${PROJECT_NAME} [dynamic_fibonacci])

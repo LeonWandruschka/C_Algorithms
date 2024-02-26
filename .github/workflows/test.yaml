@@ -25,13 +25,13 @@ jobs:
       run: conan profile detect --force
 
     - name: Install dependencies
-      run: conan install . -s build_type=Release --build=missing -of=${{github.workspace}}/build
+      run: conan install . -s build_type=Release --build=missing
 
     - name: Generate build files
-      run: cmake -B ${{github.workspace}}/build -DCONAN=ON -DCMAKE_BUILD_TYPE=Release
+      run: cmake -B ${{github.workspace}} -DCONAN=ON -DCMAKE_BUILD_TYPE=Release
 
     - name: Build the project
-      run: cmake --build ${{github.workspace}}/build --config Release
+      run: cmake --build ${{github.workspace}} --config Release
 
     # If you want to run the executable add this step
     - name: Run the executable

@@ -18,6 +18,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y cmake clang
         sudo apt-get install -y python3-pip
+        sudo apt-get install -y tree
         pip3 install conan
 
     - name: Set Conan Profile
@@ -25,6 +26,9 @@ jobs:
 
     - name: Install dependencies
       run: conan install . -sbuild_type=Release -of=build --build=missing
+
+    - name: TREE
+      run: tree
 
     - name: Generate build files
       run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCMAKE_BUILD_TYPE=Release

@@ -20,7 +20,7 @@ jobs:
     - name: Install system requirements
       run: |
         sudo apt-get update
-        sudo apt-get upgrade 
+        sudo apt-get upgrade -y
 
     - name: Update Conan
       run: pip install --upgrade conan

@@ -1,28 +1,34 @@
 name: Build and Run Workflow
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  build-and-run:
+  build:
     runs-on: ubuntu-latest
-    container: conanio/clang14-ubuntu18.04
+
+    container:
+      image: conanio/gcc9
 
     steps:
     - uses: actions/checkout@v2
 
-    # Install Conan dependencies
-    - name: Install dependencies with Conan
+    - name: Install dependencies
       run: conan install . -s build_type=Release -o build --build=missing
 
-    # Generate build files with CMake
     - name: Generate build files
       run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCMAKE_BUILD_TYPE=Release
 
-    # Build the project with CMake
     - name: Build the project
       run: cmake --build build
 
-    # Optionally, run the test
+    # If you want to run the executable add this step
     - name: Run the executable
       run: cmake --build build --target runTest
 
+    # For a clean build, you can prepend the build step with `--clean-first`
+    # - name: Clean build
+    #   run: cmake --build build --clean-first

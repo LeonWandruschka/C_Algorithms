@@ -24,7 +24,7 @@ jobs:
       run: conan profile detect --force
 
     - name: Install dependencies
-      run: conan install . -sbuild_type=Release -of=build --build=missing
+      run: conan install . -sbuild_type=Release -of=build --build=missing -c tools.system.package_manager:mode=install
 
     - name: Generate build files
       run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCMAKE_BUILD_TYPE=Release

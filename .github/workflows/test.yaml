@@ -25,17 +25,17 @@ jobs:
       run: conan profile detect --force
 
     - name: Install dependencies
-      run: conan install . -sbuild_type=Release -of=build --build=missing
+      run: conan install . -s build_type=Release --build=missing --install-folder=${{github.workspace}}/build
 
     - name: Generate build files
-      run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCATCH2_DIR=build -DCMAKE_BUILD_TYPE=Release
+      run: cmake -B ${{github.workspace}}/build -DCONAN=ON -DCMAKE_BUILD_TYPE=Release
 
     - name: Build the project
-      run: cmake --build build
+      run: cmake --build ${{github.workspace}}/build --config Release
 
     # If you want to run the executable add this step
     - name: Run the executable
-      run: ./build/test/test_exec
+      run: /build/test/test_exec
 
     # For a clean build, you can prepend the build step with `--clean-first`
     # - name: Clean build

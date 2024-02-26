@@ -7,7 +7,7 @@
 /**
  * @brief RecFib is a function wihich can calculate the fibonacci number by calling it self n times.
  * 
- * @param n Input as a sting 
+ * @param n Input as integer
  * @return int returns the nth fibonacci number
  */
 int RecFib(int n)

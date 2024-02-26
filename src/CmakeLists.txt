@@ -4,7 +4,7 @@ project(Source VERSION 1.0.0 LANGUAGES C)
 
 add_executable(Executable main.c)
 
-target_link_libraries(Executable mem_lib misc_lib search_lib)
+target_link_libraries(Executable PRIVATE mem_lib misc_lib search_lib)
 
 add_custom_target(runExecutable
     COMMAND ./src/Executable

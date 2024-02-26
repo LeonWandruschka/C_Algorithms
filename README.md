@@ -17,6 +17,8 @@ This open-source project aims to collect various C algorithms and data structure
   - [Usage](#usage)
   - [Building the Executable](#building-the-executable)
     - [Using CMake](#using-cmake)
+      - [Built without Conan](#built-without-conan)
+      - [Built with Conan](#built-with-conan)
   - [Dependencies](#dependencies)
   - [Project Structure](#project-structure)
   - [Contributing](#contributing)
@@ -48,8 +50,24 @@ After installation, you can build and run specific algorithms as described below
 
 ### Using CMake
 
-1. Generate build files: `cmake -S . -B build`
+You can customize the name of the output folder to suit your needs, moving away from the default `build` name. Moreover, you have the option to create build files for different configurations, specifically for release or debug modes. To achieve this, just append `/debug` or `/release` to the end of your preferred output folder name and adjust the `CMAKE_BUILD_TYPE` accordingly to specify the desired build mode.
+
+#### Built without Conan
+
+> Libraries dependent on a Conan package will not be built, but all other components will proceed to be compiled as expected.
+
+1. Generate build files: `cmake -S . -B build -DCMAKE_BUILD_TYPE=Release`
 2. Build the project: `cmake --build build`
+
+To run the executable after building, use: `cmake --build build --target runExecutable`
+
+For a clean build, add `--clean-first`.
+
+#### Built with Conan
+
+1. Install conan dependencies: `conan install . -sbuild_type=Release -of=build --build=missing`
+2. Generate build files: `cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCMAKE_BUILD_TYPE=Release`
+3. Build the project: `cmake --build build`
 
 To run the executable after building, use: `cmake --build build --target runExecutable`
 
@@ -70,6 +88,9 @@ Here's an overview of the project structure:
 ├── Doxyfile
 ├── LICENSE
 ├── README.md
+├── build
+│   ├── release (optional)
+│   └── debug   (optional)
 ├── memory
 │   ├── CmakeLists.txt
 │   ├── include

@@ -1,0 +1,28 @@
+name: Build and Run Workflow
+
+on: [push, pull_request]
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    container: conanio/clang14-ubuntu18.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    # Install Conan dependencies
+    - name: Install dependencies with Conan
+      run: conan install . -s build_type=Release -o build --build=missing
+
+    # Generate build files with CMake
+    - name: Generate build files
+      run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCMAKE_BUILD_TYPE=Release
+
+    # Build the project with CMake
+    - name: Build the project
+      run: cmake --build build
+
+    # Optionally, run the test
+    - name: Run the executable
+      run: cmake --build build --target runTest
+

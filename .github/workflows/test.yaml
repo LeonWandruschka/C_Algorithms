@@ -21,8 +21,7 @@ jobs:
       run: pip install --upgrade conan
 
     - name: Set Conan Profile
-      run: |
-        conan profile new --detect default
+      run: conan profile detect --force
 
     - name: Install dependencies
       run: conan install . -sbuild_type=Release -of=build --build=missing

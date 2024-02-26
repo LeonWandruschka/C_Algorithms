@@ -27,11 +27,8 @@ jobs:
     - name: Install dependencies
       run: conan install . -sbuild_type=Release -of=build --build=missing
 
-    - name: TREE
-      run: tree
-
     - name: Generate build files
-      run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCMAKE_BUILD_TYPE=Release
+      run: cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=conan_toolchain.cmake -DCONAN=ON -DCATCH2_DIR=. -DCMAKE_BUILD_TYPE=Release
 
     - name: Build the project
       run: cmake --build build

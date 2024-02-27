@@ -116,7 +116,7 @@ Conan simplifies external library management. Below are the instructions for ins
 
 1. **Install Python:** Visit the [official Python website](https://www.python.org/downloads/) and follow the instructions to install Python on your system.
 2. **Install Conan** With Python installed, open a terminal or command prompt and execute the following command: `pip install conan`
-3. **Set Up Conan Profile:** Automatically detect and create a Conan profile by running: `conan profile new default --detect`
+3. **Set Up Conan Profile:** Automatically detect and create a Conan profile by running: `conan profile detect --force`
 
 #### macOS
 

@@ -1,0 +1,44 @@
+name: CMake Testsystem (Linux)
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2 
+    
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    
+    - name: Install Conan
+      run: pip install conan && pip install --upgrade conan
+      
+    - name: Auto-detect Conan profile
+      run: conan profile detect --force
+      
+    - name: Install dependencies with Conan using detected profile
+      run: conan install . -sbuild_type=Release -of=build --build=missing 
+      
+    - name: Install CMake
+      run: |
+        wget https://github.com/Kitware/CMake/releases/download/v3.27.0/cmake-3.27.0-Linux-x86_64.sh
+        chmod +x cmake-3.27.0-Linux-x86_64.sh
+        ./cmake-3.27.0-Linux-x86_64.sh --skip-license --prefix=/usr/local
+        cmake --version # Verify the version
+
+    - name: Generate build files
+      run: cmake --preset conan-release -DCONAN=ON
+      
+    - name: Build the project
+      run: cmake --build build
+      
+    - name: Run tests
+      run: ctest --test-dir ./build/test
